@@ -1,0 +1,149 @@
+#iphone_twelve_offer{
+    overflow-x: hidden;
+}
+.bg-light-grey {background-color: #f7f7f7;}
+.image_banner {text-align: center;}
+
+.container_1280 {width: 1280px;}
+
+.hero_banner {display: flex; align-items: center; justify-content: center; text-align: center; padding: 80px 0;}
+.hero_banner .hero_content h2 {font-size: 36px; color: #db0011; margin: 0 0 40px;}
+.hero_banner .hero_content .starting_at {font-size: 24px; color: #000; font-weight: 500;}
+.hero_banner .hero_content .starting_at span {border-bottom: 2px solid #db0011; padding-bottom: 5px;}
+.hero_banner .hero_content h3 {font-size: 30px; font-weight: 700; margin: 20px 0 0; display: inline-block;}
+
+.offer_section {text-align: center; padding: 5% 0;}
+.offer_section h2 {font-weight: 700; margin-top: 0; margin-bottom: 40px; font-size: 32px;}
+.offer_section h2 span {border-bottom: 3px solid git#000000;}
+.offer_section p {font-size: 24px; color: #000;}
+
+.offer_intro {margin: 0 0 80px;}
+/*.offer_wrap > div {height: 100%;}*/
+.offer_section .offer_repeatable {background-color: #f7f7f7; padding: 50px 10px 30px;}
+.offer_section .offer_repeatable .offer_icon {margin-bottom: 25px;}
+.offer_section .offer_repeatable .offer_info p {font-size: 22px; color: #000; line-height: 26px;}
+
+.offer_terms {color: #000; text-align: left; font-size: 16px;}
+.offer_terms p{color: #000; text-align: left; font-size: 16px;line-height: 24px;font-weight: 300;}
+
+.offer_date {display: inline-flex; justify-content: center; align-items: center; border-bottom: 1px solid #b2b2b2; padding-bottom: 20px; margin-bottom: 20px;}
+.offer_date .cal_icon {margin-right: 25px; padding-right: 25px; border-right: 1px solid #cccccc;}
+.offer_date p {margin: 0; font-size: 22px; color: #000;}
+.offer_date a {color: #db0011; transition: all 0.2s ease-in-out;}
+.offer_date a:hover {text-decoration: none; color: #7a0009;}
+.offer_date a > span {border-bottom: 2px solid #db0011;}
+.offer_prepayment {font-size: 16px; color: #000; text-align: center; display: flex; justify-content: center; align-items: center; font-weight: 500;}
+.offer_prepayment span:before {content:''; display: inline-block; width: 5px; height: 5px; background-color: #000; transform: rotate(45deg); margin-right: 10px; position: relative; top: -3px;}
+
+.offer_features {width: 100%; display: flex; padding: 60px 0; margin: 0; list-style: none; justify-content: center;}
+.offer_features li {width: 100%; border-right: 1px solid #b2b2b2; padding: 20px 0;}
+.offer_features li:last-child {border-right: none;}
+.offer_features .of_re {display: flex; flex-direction: column; align-items: center; padding: 0 30px; text-align: center;}
+.offer_features .of_re .of_re_icon {height: 38px; margin-bottom: 15px;}
+.offer_features .of_re p {font-size: 22px; color: #000; line-height: 28px;}
+
+.offer_applicable {margin-top: 30px;}
+.offer_applicable p {color: #000; text-align: left; font-size: 22px; line-height: normal;font-weight: 300;}
+.oa-devies {width: 100%; display: flex; margin: 20px 0 0; padding: 0; list-style: none;}
+.oa-devies li {font-size: 20px; color: #000; padding-right: 40px; margin-right: 40px; border-right: 1px solid #000; font-weight: 600;}
+.oa-devies li:last-child {border-right: none; padding-right: 0; margin-right: 0;}
+
+.offer_details {padding-bottom: 85px;}
+
+.emi_calculator {background-color: #f7f7f7; padding: 80px 0; display: inline-block; width: 100%;}
+.emi_calculator h2 {font-weight: 700; margin-top: 0; margin-bottom: 50px; text-align: center;}
+.emi_calculator h2 span {border-bottom: 2px solid #000000;}
+.emi_calculator .form-control {background-color: transparent; border: none; border-bottom: 1px solid #d7d7d7; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; color: #f4f4f4; transition: none;}
+
+.mrp_calculation {margin-top: 70px;}
+.mrp_calculation p {color: #000;}
+.mrp_calculation .mrp_row {display: flex; text-align: left;}
+.mrp_calculation .mrp_row p:last-child {margin-left:40px;}
+.mrp_calculation .mrp_row .mrp_row_label {width: 60%;font-weight: 300;margin-bottom: 15px;font-size: 16px;}
+
+.br-mobile {display: none;}
+
+.s6 {padding: 4% 0;}
+.s6 .order_heading {
+    background-color: #fff;
+    border-bottom: none;
+    padding: 0 30px; }
+.s6 .order_title {
+    color: #303030;
+    font-family: "SF Pro Text",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+    .s6 .order_body {
+        padding: 30px 30px;
+    }
+    .s6 ul {
+        display: inline-block;
+        width: 100%;
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+    .s6 ul li {margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: .8;
+        list-style: disc;
+        line-height: 24px;}
+        .s6 ul li ol li{
+            list-style: inherit;
+        }
+    .s6 .cta_load_more {
+        color: #000;
+        display: inline-block;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .s6 .collapsed.cta_load_more:before {
+        content: "Load more...";
+    }
+    .for_epc{
+        color:#000 !important;
+        opacity: .6;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .panel {
+        margin-bottom: 20px;
+        border-color: #ddd;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+        box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    }
+
+@media (max-width:1024px) {
+    .container_1280 {width: inherit;}
+    .offer_repeatable {margin-bottom: 20px;}
+    .offer_date {max-width: 80%;}
+    .oa-devies li {padding-right: 20px; margin-right: 20px;}
+    .emi_calc_form {display: inline-block;}
+    .mrp_calculation {margin-top: 40px; display: inline-flex;}
+    .text-center-mobile {text-align: center;}
+}
+
+@media (max-width:767px) {
+    .offer_features, .oa-devies {flex-direction: column;}
+    .offer_features li {border: none;}
+    .oa-devies li {border: none; font-size: 18px;}
+    .offer_section p,.offer_applicable p {font-size: 18px;}
+    .offer_section h2, .emi_calculator h2 {font-size: 26px;}
+    .offer_section .offer_repeatable .offer_info p, .offer_date p {font-size: 20px;}
+    .offer_date {flex-direction: column;}
+    .offer_date .cal_icon {margin-right: 0; padding-right: 0; margin-bottom: 20px;}
+    .emi_calculator {padding: 50px 0;}
+    .mrp_calculation .mrp_row .mrp_row_label {min-width: auto; width: 50%;}
+    .hero_banner {flex-direction: column-reverse;}
+    .hero_banner .hero_content {margin-top: 35px;}
+    .hero_banner .hero_content h2 {font-size: 32px;}
+    .hero_banner .hero_content .starting_at {line-height: 36px;width: auto;display: inline-block;border-bottom: 2px solid #db0011;}
+    .hero_banner .hero_content .starting_at span {border-bottom: none; padding-top: 0;}
+    .br-mobile {display: block;}
+}

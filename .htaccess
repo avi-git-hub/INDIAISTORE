@@ -1,0 +1,136 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+#Non-www to www redirection
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^indiaistore\.com [NC]
+RewriteRule ^(.*)$ https://www.indiaistore.com/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+#301 Redirects
+Redirect 301 /iphone_13 /iphone-13
+Redirect 301 /iphone_13_pro /iphone-13-pro
+Redirect 301 /iPhone-12 /iphone-12
+Redirect 301 /iPhone-12-pro/productdetails https://www.indiaistore.com/iphone-12
+Redirect 301 /MacBook-Air/productdetails https://www.indiaistore.com/macbook-air
+Redirect 301 /iPhone-12-pro /iphone-12-pro
+Redirect 301 /macbook-pro-40-cm /macbook-pro-40cm
+Redirect 301 /macbook-pro-33-cm /macbook-pro-33cm
+Redirect 301 /imac-68-cm /imac-68-cm
+Redirect 301 /imac-53-cm /imac-53cm
+Redirect 301 /compare-macbook /compare/mac
+Redirect 301 /compare-iphone https://www.indiaistore.com/compare/iphone
+Redirect 301 /compare-ipad /compare/ipad
+Redirect 301 /watch-comparison /compare/watch
+Redirect 301 /iPad /ipad-8g
+Redirect 301 /iPad-Air /ipad-air
+Redirect 301 /iPad-Pro /ipad-pro
+Redirect 301 /ipad-air/productdetails https://www.indiaistore.com/ipad-air
+Redirect 301 /watch-series-5-cellular /watch-series-5
+Redirect 301 /apple-watch-series-3 /watch-series-3
+Redirect 301 /iphone-11/productdetails /iphone-11
+Redirect 301 /ipad/productdetails /ipad
+Redirect 301 /partner-with-us /enterprise
+#Redirect 301 /tv /apple-tv-4k
+Redirect 301 /new-offer/macbook-air /macbook-air
+Redirect 301 /new-offer/ipad /ipad
+Redirect 301 /iphone-se/productdetails /iphone-se
+Redirect 301 /iphone-xr/productdetails /iphone-xr
+Redirect 301 /macbook-pro-40-cm/productdetails https://www.indiaistore.com/macbook-pro-40cm
+Redirect 301 /new-offer/macbook-pro /macbook-pro
+Redirect 301 /macbook-pro/productdetails https://www.indiaistore.com/macbook-pro
+Redirect 301 /home/ipad_pro_offer /ipad-pro
+Redirect 301 /home/ipad_air_offer /ipad-air
+Redirect 301 /home/ipad_offer /ipad
+Redirect 301 /ipad-pro/productdetails https://www.indiaistore.com/ipad-pro
+Redirect 301 /iPad-8G/productdetails https://www.indiaistore.com/ipad-8g
+Redirect 301 /watch-series-6/productdetails /watch-series-6
+Redirect 301 /watch-se/productdetails/ /watch-se
+Redirect 301 /compare-tv /tv
+Redirect 301 /airpods/productdetails /airpods
+Redirect 301 /airpods-pro/productdetails /airpods-pro
+Redirect 301 /homepod/productdetails /homepod
+Redirect 301 /new-offer/ipad-pro /ipad-pro
+Redirect 301 /new-offer/watch-5 /watch-series-5
+Redirect 301 /new-offer/ipad-air /ipad-air
+Redirect 301 /new-offer/watch-3 /watch-series-3
+
+Redirect 301 /airpods /airpods-pro
+Redirect 301 /airpods /airpods-pro
+Redirect 301 /compare/music /
+Redirect 301 /ipad-8g /ipad-2021
+Redirect 301 /site/offers/load_offers /offers
+Redirect 301 /watch_7 /watch-series-7
+Redirect 301 /iPad-9thGen /ipad-2021
+Redirect 301 /macbook-pro /macbook-pro-m1-chip
+Redirect 301 /ipad_mini /ipad-mini-2021
+Redirect 301 /macbook-pro-2021 /macbook-pro-41cm-new
+Redirect 301 /ipad-pro /ipad-pro-2021
+Redirect 301 /BTS2021 https://www.indiaistore.com/Back-To-School
+Redirect 301 /imac-2021 /imac-24
+Redirect 301 /ipad-2021 /ipad-9th-generation
+Redirect 301 /ipad-pro-2021 /ipad-pro-m1
+Redirect 301 /ipad-mini-2021 /apple-ipad-mini
+Redirect 301 /back-to-school-offers https://www.indiaistore.com/Back-To-School
+Redirect 301 /icici-credit-card-offer https://www.indiaistore.com/iPhone-for-life
+Redirect 301 /watch-series-6 /watch
+Redirect 301 /macbook-pro-m1-chip /mac
+Redirect 301 /consumer-loan-offers /offers
+Redirect 301 /iphone-11 https://www.indiaistore.com/iphone
+Redirect 301 /iphone-13-pro-max https://www.indiaistore.com/iphone
+Redirect 301 /iphone-13-pro https://www.indiaistore.com/iphone
+Redirect 301 /iphone-13-mini https://www.indiaistore.com/iphone
+Redirect 301 /iphone-12-mini https://www.indiaistore.com/iphone
+Redirect 301 /watch-se https://www.indiaistore.com/watch
+Redirect 301 /watch-series-7 https://www.indiaistore.com/watch
+Redirect 301 /watch-series-3 https://www.indiaistore.com/watch
+Redirect 301 /imac-68cm https://www.indiaistore.com/mac
+Redirect 301 /trade-in https://www.indiaistore.com/trade-in-offers
+Redirect 301 /apple-tv-4k https://www.indiaistore.com/apple-tv-4k-2022
+Redirect 301 /apple-tv-hd https://www.indiaistore.com/tv
+Redirect 301 /ipad-pro-5th-generation https://www.indiaistore.com/ipad
+Redirect 301 /ipad-air https://www.indiaistore.com/ipad
+Redirect 301 /zestoffers https://www.indiaistore.com
+Redirect 301 /watch-series-5 https://www.indiaistore.com/watch
+Redirect 301 /iphone-12-pro https://www.indiaistore.com/iphone
+Redirect 301 /iphone-12-pro-max https://www.indiaistore.com/iphone
+
+
+
+
+
+
+
+
+
+
+</IfModule>
+
+#<IfModule mod_headers.c>
+
+# <FilesMatch ".(js)$">
+
+# Header append Vary: Accept-Encoding
+
+# </FilesMatch>
+
+#</IfModule>
+
+<FilesMatch ".(eot|ttf|otf|woff)">
+Header set Access-Control-Allow-Origin "\*"
+</FilesMatch>
+
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=84600, public"
+</filesMatch>

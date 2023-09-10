@@ -1,0 +1,12 @@
+th, td {
+  vertical-align: middle !important;
+}
+
+.bootstrap-switch.bootstrap-switch-large .bootstrap-switch-handle-on {
+  padding: 0.5rem;
+}
+
+.card-footer,
+.modal-footer {
+  border-top: 1px solid #dee2e6!important;
+}

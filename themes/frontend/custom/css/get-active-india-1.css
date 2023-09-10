@@ -1,0 +1,406 @@
+ CSS Document */
+/* Second phase CYR LP CSS*/
+#CYR_LP .cry_wth_100 {
+  width: 100%;
+}
+
+#CYR_LP .bg_second_phase {
+  background: #ff7dac;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff7dac), color-stop(0%, #f80a55), color-stop(0%, #f71e6c), to(#f80a55));
+  background: linear-gradient(180deg, #ff7dac 0%, #f80a55 0%, #f71e6c 0%, #f80a55 100%);
+}
+
+#CYR_LP .font_clr {
+  color: #fff !important;
+}
+
+#CYR_LP .para .sec_pd_new {
+  padding: 2% 0;
+}
+
+#CYR_LP .phase_second_pd {
+  padding: 8% 0;
+}
+
+#CYR_LP .ft_sz {
+  font-size: 2.1vw;
+  font-weight: 500;
+}
+
+#CYR_LP .bg_black_new {
+  background: #151515;
+}
+
+
+.box_flip {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.box_flip_inner {
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  perspective: 1000px;
+
+  -webkit-perspective: 1000px;
+}
+
+.box_flip_front,
+.box_flip_back {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+       height: 300px;
+    background: #000;
+  border: 1px solid #434343;
+  border-radius: 20px;
+  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box_flip_front {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.box_flip_inner:hover .box_flip_front {
+  -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.box_flip_back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f80853;
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.box_flip_inner:hover .box_flip_back {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.box_flip_inner .inner_box {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  top: 50%;
+        padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#CYR_LP .box_flip {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+#CYR_LP .box_flip_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+#CYR_LP .box_flip:hover .box_flip_inner {
+   -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+
+#CYR_LP .box_flip_front,#CYR_LP .box_flip_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid #434343;
+  border-radius: 20px;
+}
+
+#CYR_LP .box_flip_front {
+  color: black;
+  padding: 10%;
+}
+
+#CYR_LP .box_flip_back {
+  color: black;
+   -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background: #f80853;
+  padding: 5%;
+}*/
+
+/*#CYR_LP .box_flip_back {
+  color: black;
+   -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  background: #f80853;
+  padding: 5%;
+}
+*/
+#CYR_LP .inner_box {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+
+}
+
+#CYR_LP .inner_box h5 {
+  color: #ffffff;
+}
+
+#CYR_LP .inner_box p {
+  color: #ffffff;
+}
+
+#CYR_LP .rank {
+  font-weight: 600;
+  padding-left: 8px;
+  margin: 3px 0;
+  font-size: 16px;
+}
+
+#CYR_LP .number {
+  border: 1px solid #f80853;
+  border-radius: 10px;
+  padding: 5px 18px;
+  margin: 0;
+  color: #ffffff;
+  background: #f80853;
+  display: inline-block;
+  font-size: 40px;
+}
+
+#CYR_LP .bg_wht {
+  color: #f80853;
+  background: #ffffff;
+}
+
+#CYR_LP .city_clr {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#CYR_LP .score_clr {
+  color: #f80753;
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+#CYR_LP .rank_num {
+  display: inline-block;
+}
+
+#CYR_LP .city_score {
+  display: inline-block;
+  padding-left: 13px;
+  vertical-align: top;
+}
+
+#CYR_LP .back_city_ft {
+  font-size: 26px;
+}
+
+#CYR_LP .back_score_ft {
+  color: #000000;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+#CYR_LP .wrapper_inner_box {
+  border-bottom: 1px solid #fa5286;
+  padding-bottom: 10px;
+}
+
+#CYR_LP .wrapper_inner_box_2 {
+  padding: 1% 22px;
+}
+
+#CYR_LP .top_box {
+  margin-top: 4%;
+}
+
+#CYR_LP .back_city_ft_new {
+  margin: 0;
+  font-size: 10px;
+}
+
+#CYR_LP .back_score_ft {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#CYR_LP .pd_rt {
+  padding-left: 27px;
+}
+
+#CYR_LP .container_with_90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#CYR_LP .act_part {
+  color: #ffffff;
+  margin: 0;
+  font-size: 15px;
+}
+
+#CYR_LP .w_23 {
+  padding: 10px 8px;
+}
+
+#CYR_LP .mg_bttm {
+  margin-bottom: 5%;
+}
+
+#CYR_LP .score_clr span {
+  font-weight: 500;
+}
+
+#CYR_LP .act_part span {
+  font-weight: 500;
+}
+
+/* Second phase CYR LP CSS end*/
+#CYR_LP .know_more_para {
+  padding: 20px;
+}
+
+#CYR_LP .know_more_para h4 {
+  font-size: 23px;
+}
+
+#CYR_LP .know_more_para p {
+  font-size: 20px;
+}
+
+#CYR_LP .bg_grey_dark {
+  background: #ecedef;
+}
+
+#CYR_LP .bg_grey_dark p {
+  color: #000000;
+  padding: 2% 0;
+}
+
+#CYR_LP .w_100 {
+  width: 73%;
+}
+
+#CYR_LP .bg-black {
+  background: #151515;
+  margin-top: 2%;
+}
+
+#CYR_LP .font_clr_blk {
+  color: #000000;
+}
+
+#CYR_LP .india_active_sec h2 {
+  font-size: 34px;
+}
+
+@media only screen and (min-device-width: 751px) and (max-device-width: 1024px) {
+  #CYR_LP .col-md-3 {
+    width: 50%;
+    float: left;
+  }
+  #CYR_LP .mg_top {
+    margin-top: 6%;
+  }
+  #CYR_LP .back_city_ft_new {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 750px) {
+  #CYR_LP .ft_sz {
+    font-size: 9vw;
+  }
+  #CYR_LP .box_flip_back {
+    padding: 5%;
+  }
+  #CYR_LP .back_city_ft_new {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-device-width: 520px) and (max-device-width: 749px) {
+  #CYR_LP .back_city_ft_new {
+    font-size: 3vw;
+  }
+  #CYR_LP .box_flip {
+    height: 360px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+.box_flip {
+    height: 350px;
+}
+.box_flip_front, .box_flip_back{
+  height: 350px;
+}
+}
+/*# sourceMappingURL=style.css.map 

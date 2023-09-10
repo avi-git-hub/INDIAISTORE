@@ -1,0 +1,128 @@
+$width: 100%;
+$margin: 0 auto;
+$position_parent: relative;
+$position_child: absolute;
+$left:  0;
+$right: 0;
+$top: 70%;
+$top_mobile: 21%;
+$color: #000000;
+$color_black: #000000;
+$text-align: left;
+$font-size: 38px;
+$padding: 6px 0;
+$line-height: 22px;
+$font-size_para: 15px;
+$margin-bottom: 20px;
+$font-weight: 300;
+$background: url("../images/about_us/about_us_banner.png") no-repeat 79% 100%;
+$background-position: center center;
+$background-size: cover;
+$max-width: 100%;
+$display:none;
+$height: 320px;
+$overflow: inherit;
+$about_us_width: 1101px;
+$margin_auto: 0 auto;
+$background_clr: #ffffff;
+$padding_box: 2% 3%;
+$margin_bottom_top_box: 22px;
+$margin_bottom_about_us_parent: 30%;
+$bax_shadow: 0 0 11px 2px rgba(0, 0, 0, 0.06);
+$bockground_color:  #ffffff;
+$width_90: 90%;
+$top_ipad_view_900: 32%;
+$top_mobile_view: 60%;
+$padding_mobile_view: 2% 5%;
+$min-height: 900px;
+$margin_bottom_zero_ipad_pro:0;
+$top_ipad_view_768: 53%;
+// $min-height_768: 1400px;
+$top_ipad_view_600: 43%;
+$top_ipad_view_450: 20%;
+$top_ipad_view_350: 20%;
+$top_ipad_view_320: 10%;
+
+
+
+.inner_container {
+    padding: $padding;
+    }
+.w_100
+{
+    padding: $padding_box;
+    
+    @media  (max-width: 1024px) { max-width: $max-width; width: $width_90; }
+}
+.inner_page_banner {
+width: $width;
+/*background: $background;*/
+$background-position : $background-position;
+background-size: $background-size;
+overflow: $overflow;
+
+}
+.inner_page_banner img{
+    width: $width;
+    }
+.about_us_box{
+
+    @media (max-width: 1024px) { margin-bottom: $margin_bottom_zero_ipad_pro;}
+    @media (max-width: 767px) {margin-bottom: 30%;}
+    @media (max-width: 768px) { margin-bottom: $margin_bottom_zero_ipad_pro;}
+
+}
+.about_us
+{
+    position: $position_parent;
+    
+}
+.banner_cont1
+{
+    margin-top: -16% !important;
+    position: relative;
+    margin-bottom: 50px;
+    left: $left;
+    right: $right;
+    top: $top;
+    color: $color;
+    text-align: $text-align;
+    font-size: $font-size;
+    width: $about_us_width;
+    margin-left: auto;
+    margin-right: auto;
+    background: $background_clr;
+    padding: $padding_box;
+    box-shadow: $bax_shadow;
+    background-color: $bockground_color;
+    // @media (max-width: 1024px) { width: $width; width: $width_90; top: $top_ipad_view_900;padding: $padding_mobile_view; }
+    // @media (max-width: 768px) { top: $top_ipad_view_768;}
+    // @media (max-width: 600px) { top: $top_ipad_view_600;}
+    // @media (max-width: 455px) { top: $top_ipad_view_450;}
+    // @media (max-width: 450px) { top: $top_ipad_view_450;}
+    // @media (max-width: 390px) { top: $top_ipad_view_350;}
+    // @media (max-width: 393px) { top: 12%;}
+    // @media (max-width: 320px) { top: $top_ipad_view_320;}
+    
+}
+.banner_cont1{
+    @media (max-width: 1024px) { width: 90%;}
+    @media (max-width: 767px){width: 90%;}
+}
+.banner_cont1 h2
+{
+    margin-bottom: $margin_bottom_top_box;
+    @media (max-width: 767px){margin-top: 10%;}
+}
+.page-intro
+{
+    text-align: $text-align;
+    color: $color_black;
+}
+.page-desc
+{
+    line-height: $line-height;
+    font-size: $font-size_para;
+    margin-bottom: $margin-bottom;
+    font-weight: $font-weight;
+}

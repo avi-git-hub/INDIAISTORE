@@ -1,0 +1,603 @@
+
+ @import "all.min.css";
+
+  #consumer_bank_offers .top_box {
+    margin-top: 4%;
+    width: 60%;
+    color: #303030;
+    margin: 4% auto;
+  }
+
+  #consumer_bank_offers .back_city_ft_new.bottomText {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 0px;
+    padding-top: 5%;
+  }
+
+  #consumer_bank_offers .servifyDetails h4 {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+  }
+
+  #consumer_bank_offers .rank_num {
+    display: inline-block;
+    float: left;
+  }
+
+  #consumer_bank_offers .servifyDetails {
+    background-color: #fff;
+    padding: 5%;
+    margin: 5% 0;
+  }
+
+  #consumer_bank_offers .servifyDetails .bottomText {
+    padding-top: 5%;
+  }
+
+  #consumer_bank_offers .pd_rt {
+    padding-left: 27px;
+  }
+
+  #consumer_bank_offers .back_city_ft_new {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 6px;
+  }
+
+  #consumer_bank_offers .back_score_ft {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  #consumer_bank_offers .fordesktoponly {
+    display: block !important;
+  }
+
+  #consumer_bank_offers .formobileonly {
+    display: none !important;
+  }
+
+  #consumer_bank_offers .bg_grey {
+    background-color: #f8f7f7;
+    padding: 4% 0;
+  }
+
+  #consumer_bank_offers .assuredBlock {
+    text-align: center;
+  }
+
+  #consumer_bank_offers .assuredBlock img {
+    display: inline-block;
+  }
+
+  #consumer_bank_offers .assuredBlock h3 {
+    padding: 15px 0;
+    color: #000;
+    font-size: 22px;
+  }
+
+  #consumer_bank_offers .assuredBlock h4 {
+    font-size: 30px;
+    padding: 15px 0;
+    color: #40479e;
+  }
+
+  #consumer_bank_offers .assuredBlock .dimage {
+    padding: 5%;
+  }
+
+  #consumer_bank_offers .assuredBlock p {
+    font-size: 16px;
+    color: #000;
+  }
+
+  #consumer_bank_offers .s3 {
+    padding: 4% 0;
+  }
+
+  #consumer_bank_offers .s1 {
+    padding-bottom: 4%;
+  }
+
+  #consumer_bank_offers .assuredBlock h5 {
+    font-size: 22px;
+    color: #000;
+  }
+
+  #consumer_bank_offers .video_banner {
+    text-align: center;
+    position: relative;
+  }
+
+  #consumer_bank_offers .w_century {
+    width: 100%;
+  }
+
+  #consumer_bank_offers .s3 .offerInfo {
+    padding: 2% 15px;
+  }
+
+  #consumer_bank_offers .s3 .offerInfo p {
+    line-height: 13px;
+    font-size: 12px;
+ 
+  }
+
+  #consumer_bank_offers .s3 .offerInfo h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    font-weight: 400;
+  }
+
+  #consumer_bank_offers .s3 .offerInfo .devicelist {
+    margin: 20px 0;
+  }
+
+  #consumer_bank_offers .s4 {
+    padding-top: 30px;
+  }
+
+  #consumer_bank_offers .s4 .order_heading {
+    background-color: #ffffff;
+    border-bottom: none;
+    padding: 30px;
+  }
+
+  #consumer_bank_offers .s4 .order_title {
+    color: #303030;
+ 
+    font-size: 26px;
+  }
+
+  #consumer_bank_offers .s4 .order_body {
+    padding: 0 30px 30px;
+  }
+
+  #consumer_bank_offers .s4 ul {
+    display: table;
+    padding-inline-start: 0;
+    -webkit-border-horizontal-spacing: 10px;
+  }
+
+  #consumer_bank_offers .s4 li {
+    color: #5d5d5d;
+    display: table-row;
+  }
+
+  #consumer_bank_offers .s4 li:before {
+    content: "\00b7";
+    font-size: 60px;
+    line-height: 24px;
+    vertical-align: top;
+    display: table-cell;
+    text-align: right;
+  }
+
+  #consumer_bank_offers .s4 ul {
+    display: table;
+    padding-inline-start: 0;
+    -webkit-border-horizontal-spacing: 10px;
+  }
+
+  #consumer_bank_offers .s4 .collapsed.cta_load_more:before {
+    content: "Load more...";
+  }
+
+  #consumer_bank_offers .s4 .cta_load_more {
+    color: #000000;
+    display: inline-block;
+ 
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
+  #consumer_bank_offers .s6 {
+    padding: 4% 0;
+  }
+
+  #consumer_bank_offers .s6 .order_heading {
+    background-color: #ffffff;
+    border-bottom: none;
+    padding: 30px;
+  }
+
+  #consumer_bank_offers .s6 .order_title {
+    color: #303030;
+ 
+    font-size: 26px;
+  }
+
+  #consumer_bank_offers .s6 .order_body {
+    padding: 0 30px 30px;
+  }
+
+  #consumer_bank_offers .s6 ul {
+    display: table;
+    padding-inline-start: 0;
+    -webkit-border-horizontal-spacing: 10px;
+  }
+
+  #consumer_bank_offers .s6 li {
+    color: #5d5d5d;
+    display: table-row;
+  }
+
+  #consumer_bank_offers .s6 li:before {
+    content: "\00b7";
+    font-size: 60px;
+    line-height: 24px;
+    vertical-align: top;
+    display: table-cell;
+    text-align: right;
+  }
+
+  #consumer_bank_offers .s6 ul {
+    display: table;
+    padding-inline-start: 0;
+    -webkit-border-horizontal-spacing: 10px;
+  }
+
+  #consumer_bank_offers .s6 .collapsed.cta_load_more:before {
+    content: "Load more...";
+  }
+
+  #consumer_bank_offers .s6 .cta_load_more {
+    color: #000000;
+    display: inline-block;
+ 
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
+  #consumer_bank_offers .s4 .order_body:before, #consumer_bank_offers .s6 .order_body:before {
+    content: "";
+    display: block;
+    margin: 0 auto 30px;
+    border-bottom: 2px solid rgba(224, 224, 224, 0.4);
+  }
+
+  /*table style*/
+
+  #buyBackTable .table.table-bordered {
+    border-collapse: separate;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-bottom: 0;
+  }
+
+  #buyBackTable thead {
+    background-image: linear-gradient(270deg, #9ed7dd, #2c7cc7);
+    border-color: #47b0bb;
+    color: #ffffff;
+  }
+
+  #buyBackTable .table.table-bordered th, #buyBackTable .table.table-bordered td {
+    padding: 15px 20px;
+    vertical-align: middle;
+  }
+
+  #buyBackTable .table.table-bordered td {
+    border-top: none;
+    border-color: rgb(224, 224, 224);
+    color: #000;
+ 
+  }
+
+  #buyBackTable .table.table-bordered th {
+    padding: 15px 20px;
+    vertical-align: middle;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  #buyBackTable .table.table-bordered tr.headText td {
+
+    font-size: 18px;
+    width: 30%;
+  }
+
+  #buyBackTable .table.table-bordered td {
+    padding: 15px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+  }
+
+  #buyBackTable .table.table-bordered {
+    border-collapse: separate;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-bottom: 0;
+  }
+
+  #buyBackTable .table.table-bordered th {
+    border-top-right-radius: 6px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-color: #47b0bb;
+    font-family: "SFProText-Semibold", sans-serif;
+  }
+
+  /*consumer table*/
+
+  #consumerTable li {
+    margin-bottom: -2px;
+  }
+
+  #consumerTable li>a {
+    color: #555555;
+    text-align: center;
+    border: none;
+    line-height: 10px;
+  }
+
+  #consumerTable li a.active {
+    border: 2px solid #47b0bb;
+    background-image: linear-gradient(to left, #9ed7dd, #2c7cc7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #consumerTable .nav>li>a:focus, #consumerTable .nav>li>a:hover{
+    background-color: #eee;
+  }
+
+ #consumer_bank_offers .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #00000029;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+  #consumerTable .table.table-bordered {
+    border-collapse: separate;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-bottom: 0;
+  }
+
+  #consumerTable thead {
+    background-image: linear-gradient(270deg, #9ed7dd, #2c7cc7);
+    border-color: #47b0bb;
+    color: #ffffff;
+  }
+
+  #consumerTable .table.table-bordered th, #consumerTable .table.table-bordered td {
+    padding: 15px 20px;
+    color: #000;
+    vertical-align: middle;
+  }
+
+  #consumerTable .table.table-bordered th {
+    border-top-right-radius: 6px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-color: #47b0bb;
+    font-family: "SFProText-Semibold", sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  #consumerTable .table.table-bordered .loanHead th {
+    color: #fff !important;
+  }
+
+  #consumerTable .table.table-bordered .loanHead small {
+    font-size: 12px;
+  }
+
+  #consumerTable .table.table-bordered tr td.strongHead {
+
+    font-size: 18px;
+    width: 30%;
+    color: #000;
+  }
+
+  #consumer_bank_offers .s6 .cta_load_more:before {
+    content: "Load less...";
+  }
+
+  #consumerTable .table.table-bordered tr td.strongHead p {
+    font-size: 12px;
+  }
+
+  #consumer_bank_offers .s_title {
+    font-size: 32px;
+    border-bottom: 2px solid #47b0bb;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4%;
+    background-image: linear-gradient(to left, #9ed7dd, #2c7cc7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    margin-top: 0;
+  }
+
+  #consumerTable .table.table-bordered tr {
+    text-align: center;
+  }
+
+  /*end*/
+    .s_loan_calculator{
+     background: #f1f1f1;
+    padding: 4% 0 6% 0;  
+    }
+    .s_loan_calculator .price_container{
+      color: #000;
+      padding: 4% 0;
+    }
+    .s_loan_calculator .prod_loan_amount span{
+      color: #000;
+      line-height: 32px;
+  
+      font-size: 32px;
+    }
+    .s_loan_calculator .row_space{
+      margin-bottom: 5%;
+    }
+
+  .s_loan_calculator .s_title {
+    color: #47b0bb;
+  }
+
+  .s_loan_calculator .s_subtitle {
+    color: #303030;
+
+    font-size: 18px;
+  }
+
+  .s_loan_calculator .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #4f4f4f;
+ 
+    transition: none;
+  }
+
+  .s_loan_calculator .form-control:focus, .s_loan_calculator .form-control:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .s_loan_calculator #price_container {
+    display: none;
+  }
+
+  .s_loan_calculator #prod_loan_amount {
+    color: #47b0bb;
+ 
+    font-size: 18px;
+  }
+
+  .s_loan_calculator #prod_loan_amount span {
+    font-family: "SFProText-Semibold", sans-serif;
+  }
+
+  .s_loan_calculator .effective_price {
+    color: #202020;
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: 768px) {
+    #consumer_bank_offers .mb_md_0 {
+      margin-bottom: 0;
+    }
+    #consumerTable .nav-tabs {
+      margin: 0 0px;
+    }
+    #consumerTable .tab-content {
+      padding: 30px 0px;
+    }
+  }
+
+  @media (min-width: 1920px) and (max-width: 2560px) {
+    .video_banner img.bigimg {
+      display: inline-block !important;
+    }
+    #consumer_bank_offers .w_century {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    #buyBackTable .table.table-bordered td {
+      padding: 5px 15px;
+    }
+    #buyBackTable .table.table-bordered tr.headText td {
+      font-size: 14px;
+    }
+    #consumer_bank_offers .s3 .offerInfo h3 {
+      font-size: 16px;
+    }
+    #buyBackTable .table.table-bordered th {
+      font-size: 20px;
+    }
+    #consumer_bank_offers .fordesktoponly {
+      display: none !important;
+    }
+    #consumer_bank_offers .formobileonly {
+      display: block !important;
+    }
+    #consumer_bank_offers .formobileonly.din {
+      display: inline-block !important;
+      width: 100%;
+    }
+    #consumerTable li img {
+      width: 100%;
+    }
+    #consumerTable li {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+    #consumer_bank_offers .s_title {
+      padding: 5px 0;
+      font-size: 28px;
+    }
+    #consumerTable .table.table-bordered tr td.strongHead {
+      font-size: 14px;
+    }
+    #consumerTable .table.table-bordered td {
+      padding: 5px 15px;
+    }
+    #consumer_bank_offers .assuredBlock h3 {
+      font-size: 18px;
+    }
+    #consumer_bank_offers .assuredBlock h4 {
+      font-size: 25px;
+      margin-bottom: 0;
+    }
+    #consumer_bank_offers .assuredBlock h5 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    #consumer_bank_offers .assuredBlock .dimage {
+      padding: 0;
+    }
+    #consumer_bank_offers .top_box {
+      width: 80%;
+    }
+    .s_loan_calculator .effective_price {
+      font-size: 22px;
+    }
+    .s_loan_calculator .row_space{
+      margin-bottom: 0%;
+    }
+     .s_loan_calculator select{
+      margin-top: 2%;
+    }
+    .s_loan_calculator {
+    background: #f1f1f1;
+    padding: 15% 0;
+}
+  }
+
+  @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    .navbar-default .navbar-nav>li {
+      margin-right: 5px!important;
+      font-size: 1.3vw !important;
+    }
+  }

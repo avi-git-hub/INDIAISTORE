@@ -1,0 +1,4 @@
+files/
+application/cache/
+.vscode/
+node_modules/

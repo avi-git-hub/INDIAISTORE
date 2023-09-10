@@ -1,0 +1,14 @@
+$text-align: center;$font-size: 38px;$padding: 60px 0;$font_family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+$margin_top: 20px;$margin_bottom: 10px; $color_black: #000000;$font_weight: 400;$font_size_p: 14px;$color_grey: #777777;$margin_top_bttm: 20px 0;$line_height_p: 24px;$font_size_h4: 16px;$padding_left: 45px;$list_style:disc;
+
+.privacy_policy {padding: $padding; font-family: $font_family;}
+.pri_pol h2{font-size: $font-size; margin-top: $margin_top; margin-bottom: $margin_bottom; color: $color_black; font-weight: $font_weight;}
+.pri_pol h4{text-align: $text-align; font-size: $font_size_h4;} h5{font-size: $font_size_p;}
+.pri_pol p{font-size: $font_size_p; color: $color_grey; margin: $margin_top_bttm; line-height: $line_height_p;}
+.pri_pol ul{padding-left: $padding_left; list-style: $list_style;}
+.pri_pol ul li{font-size: $font_size_p; color: $color_grey; line-height: $line_height_p;}
+
+
+
+
+

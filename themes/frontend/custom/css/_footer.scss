@@ -1,0 +1,211 @@
+footer {
+  background-color: #efefef;
+  .wrapper {
+    color: #fff;
+    padding: 30px 10px;
+    @include media-min(lg) {
+      padding: 80px 10px;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
+    nav {
+        @include media-max(lg) {
+            li {
+                a { border-bottom: solid 1px #101010; display: flex; justify-content: space-between;
+                     align-items: center; padding: 12.5px 0; font-size: 0.85rem; letter-spacing: 1px; font-weight: 300; 
+                     i {
+                        transition: 0.3s;
+                        font-size: 8px;
+                      }
+                      &.collapsed i {
+                        transform: rotateX(180deg);
+                      }
+                      @include media-min(lg) {
+                        padding: 15px 10px;
+                        width: calc(100% - 10px);
+                        &[aria-expanded="true"] {
+                          background: #0b0b0b;
+                          &:before {
+                            width: 100vw;
+                          }
+                        }
+            
+                        &:before {
+                          content: " ";
+                          position: absolute;
+                          height: 100%;
+                          width: 0;
+                          background: #0b0b0b;
+                          transform: translateX(-100%);
+                          @include IE11 {
+                            display: none;
+                          }
+                        }
+            
+                        i {
+                          font-size: 11px;
+                          display: none;
+                        }
+                      }
+                      
+                    }
+
+        &.has-menu ul {
+          padding-left: 30px;
+          a {
+            font-weight: 100;
+            opacity: 0.7;
+          }
+        }
+
+        i {
+          font-size: 6px;
+        }
+      }
+    }
+
+    @include media-min(lg) {
+      #footer-accordion {
+        display: flex;
+        justify-content: space-between;
+        & > li {
+          font-size: 1.1rem;
+          font-weight: 200;
+          letter-spacing: 1px;
+          &.has-menu {
+            & > a {
+              display: inline-block;
+              pointer-events: none;
+              margin-bottom: 30px;
+              i {
+                display: none;
+              }
+            }
+            ul {
+              display: block;
+              li {
+                margin-bottom: 20px;
+              }
+              a {
+                font-size: 0.8rem;
+                font-weight: 100;
+                opacity: 0.6;
+                transition: 0.3s;
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+          &.has-sub-menu {
+            & > ul > li {
+              &:not(:last-child) {
+                margin-bottom: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .social-icons {
+    @include media-max(lg) {
+      margin-top: 30px;
+    }
+
+    & > a {
+      border-bottom: none;
+    }
+
+    ul {
+      display: flex;
+      margin-top: 30px;
+      @include media-max(lg) {
+        margin-top: 10px;
+      }
+    }
+    li {
+      margin-right: 12px;
+      a {
+        display: flex;
+        border: solid 1px #797979;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        @include media-min(lg) {
+          width: 40px;
+          height: 40px;
+          margin-right: 40px;
+        }
+      }
+      .fab {
+        font-size: 13px;
+        color: #808080;
+      }
+    }
+  }
+
+  .partners {
+    text-align: center;
+    border-bottom: solid 1px #d5d5d5;
+    a {
+      display: inline-block;
+      margin: 10px 0;
+
+      @include media-max(lg) {
+        padding: 0 5px;
+        img {
+          max-width: 90px;
+          &.logo_ingram{
+            max-width: 70px;
+          }
+        }
+     
+      }
+
+      @include media-min(lg) {
+        padding: 0 20px;
+        margin: 20px 0;
+        &:not(:first-child) {
+          border-left: solid 1px #d5d5d5;
+        }
+        img {
+          &:not(.logo_redington) {
+            max-height: 25px;
+          }
+          &.logo_redington {
+            max-height: 60px;
+          }
+          &.logo_ingram {
+            max-height: 32px;
+          }
+        }
+      }
+    }
+  }
+
+  .copy {
+    margin: 20px 0;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+    color: #777777;
+    display: inline-block;
+    width: 100%;
+    @include media-min(lg) {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+}

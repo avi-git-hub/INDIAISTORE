@@ -1,0 +1,829 @@
+
+
+.spacer_div {
+    height: 120px;
+}
+
+.spacer_div_40 {
+    height: 40px;
+}
+
+.spacer_div_30 {
+    height: 30px;
+}
+
+.spacer_div_25 {
+    height: 25px;
+}
+
+.spacer_div_20 {
+    height: 20px;
+}
+
+.spacer_div_15 {
+    height: 15px;
+}
+
+.spacer_div_10 {
+    height: 10px;
+}
+
+.spacer_div_5 {
+    height: 5px;
+}
+
+hr {
+    max-width: 550px;
+    margin: 0px auto;
+    height: 1px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, #adadad), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #adadad, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #adadad, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #adadad, rgba(0, 0, 0, 0));
+    background: linear-gradient(left, rgba(0, 0, 0, 0), #adadad, rgba(0, 0, 0, 0));
+    border: 0;
+}
+
+.header-placement {
+    margin-top: 65px;
+}
+
+.margin-auto {
+    margin: 0 auto !important;
+}
+
+.btn-outline {
+    width: 160px;
+    border: 2px solid #999999;
+    border-radius: 13px;
+    font-size: 35px;
+    padding: 13px 25px;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: transparent;
+}
+
+.margin-top-60 {
+    margin-top: 60px !important;
+}
+
+/*iPhone X Banner*/
+.iphonex-launch-banner .iphone-x-launch-cta {
+    display: none;
+}
+
+.iphonex-launch-banner .iphone-x-launch-link {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+/*New Beats landing Page*/
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.bg-0e {
+    background: none !important;
+    background: #0e0e0e !important;
+}
+
+.bg-ed {
+    background: none !important;
+    background: #ededed !important;
+}
+
+.bg-f6 {
+    background: none !important;
+    background: #f6f6f7 !important;
+}
+
+.bg-fff {
+    background: none !important;
+    background: #fff !important;
+}
+
+.bg-41 {
+    background: none !important;
+    background: #414141 !important;
+}
+
+.bg-41b0bc {
+    background: none !important;
+    background: #41b0bc !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.ipad-emi-banner.hompage-banner, .ipad-emi-banner.hompage-banner .banner-content {
+    height: 300px;
+}
+
+.inner-container {
+    padding: 60px 0;
+}
+
+.hompage-banner {
+    height: 400px;
+    padding: 0 !important;
+}
+
+.banner-content {
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+}
+
+.banner-content .outer-container-sk {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
+    display: table;
+    padding: 15px;
+}
+
+.banner-content .inner-container-sk {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-container {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.text-container p span {
+    color: #000;
+    display: inline-block;
+    border-left: 1px solid #cacacb;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.slide-item.bg-0e .text-container p span {
+    color: #fff;
+    border-left: 1px solid #e3e3e3;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.page-intro {
+    color: #000;
+    text-align: center;
+}
+
+.page-desc {
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.masonry-block {
+    display: block;
+    position: relative;
+    margin: 0;
+    height: 400px;
+}
+
+.masonry-block .overlay {
+    background-color: #3f3f3f;
+}
+
+.masonry-block .overlay:hover {
+    background-color: #191919;
+}
+
+.masonry-block .overlay.bg-blue {
+    background-color: #41b0bc;
+}
+
+.masonry-block .overlay.bg-blue:hover {
+    background-color: #099faf;
+}
+
+.masonry-block .overlay.bg-light-blue {
+    background-color: #47b9c5;
+}
+
+.masonry-block .overlay.bg-light-blue:hover {
+    background-color: #12a2b1;
+}
+
+.masonry-block .overlay.bg-c9 {
+    background-color: #c9c9c9;
+}
+
+.masonry-block .overlay.bg-c9:hover {
+    background-color: #aeaeae;
+}
+
+.masonry-block .overlay.bg-4b {
+    background-color: #4b4b4b;
+}
+
+.masonry-block .overlay.bg-4b:hover {
+    background-color: #2e2e2e;
+}
+
+.masonry-block .banner-content {
+    width: 400px;
+}
+
+.masonry-block a {
+    color: #fff;
+    min-height: 55px;
+}
+
+.masonry-block img {
+    max-width: 100%;
+    width: auto;
+}
+
+.masonry-block p, .masonry-block p a {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    min-height: 55px;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.col-md-3 .masonry-block .banner-content {
+    width: 100%;
+    height: 280px;
+}
+
+.col-md-3 .masonry-block {
+    height: 280px;
+}
+
+.emi-title {
+    font-size: 28px;
+    margin: 20px 0 10px;
+    font-family: 'SFProText-Regular', sans-serif;
+}
+
+.emi-title span, .emi-sub-titile {
+    font-size: 18px;
+    text-transform: none;
+    font-family: 'SFProText-Light', sans-serif;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/*Affordability Page*/
+.affordability_wrap .sl-header {
+    padding-top: 55px;
+}
+
+.affordability_wrap .sl-header h1 {
+    margin-bottom: 50px;
+}
+
+.sl-header.bg-ed h1 {
+    color: #000 !important;
+}
+
+.sl-header.bg-ed .sl-radio label {
+    border: 1px solid #474747;
+    color: #474747;
+}
+
+.sl-header.bg-ed .sl-radio input:checked + label {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.finance-offers-wrap {
+    padding: 20px 10px;
+    min-height: 275px;
+}
+
+.affordability_wrap {
+    width: 100%;
+}
+
+.inner_page_banner {
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+
+.inner_page_banner img {
+    width: 100%;
+}
+
+.banner_cont1 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top: 35%;
+}
+
+.banner_cont1 h1 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 38px;
+    margin: 0;
+    padding: 0
+}
+
+.banner_cont1 h2 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 18px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.padding-10 {
+    padding: 10px !important;
+}
+
+.finance-offer-img {
+    
+    padding: 2px;
+}
+
+/*Banner Issue*/
+.inner_page_banner img {
+    display: none;
+}
+
+.inner_page_banner {
+    background-position: center center;
+    background-size: cover;
+}
+
+.affordability_wrap .inner_page_banner {
+    background: url(../images/new-design-img/affordability_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.partnership_wrap .inner_page_banner {
+    background: url(../images/partnership_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.leasing_wrap .inner_page_banner {
+    background: url(../images/leasing_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.about_wrap .inner_page_banner {
+    background: url(../images/new-design-img/about_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Apple TV 4K*/
+.section-tiles .column {
+    padding: 0 3%;
+}
+
+.page-overview .section-tiles .tile {
+    width: 100%;
+}
+
+/*All Partners Page - Style*/
+.all-partner-page-banner-wrap {
+    padding: 50px 0 30px;
+    background-color: #f7f7f7;
+}
+
+.all-partner-page-banner-wrap .all-partner-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.all-partner-page-banner-wrap .all-partner-tile-cont {
+    padding: 20px 0 30px;
+}
+
+.all-partner-page-banner-wrap .all-partner-tile-cont .col-md-3 {
+    padding: 0 !important;
+}
+
+.all-partner-tile {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.col-xs-6:nth-child(1) .all-partner-tile, .col-xs-6:nth-child(3) .all-partner-tile, .col-xs-6:nth-child(6) .all-partner-tile,
+ .col-xs-6:nth-child(8) .all-partner-tile, .col-xs-6:nth-child(9) .all-partner-tile,
+  .col-xs-6:nth-child(11) .all-partner-tile,
+   .col-xs-6:nth-child(14) .all-partner-tile, .col-xs-6:nth-child(16) .all-partner-tile, .col-xs-6:nth-child(17) .all-partner-tile ,
+    .col-xs-6:nth-child(19) .all-partner-tile,  .col-xs-6:nth-child(22) .all-partner-tile,.col-xs-6:nth-child(24) .all-partner-tile,
+     .col-xs-6:nth-child(26) .all-partner-tile, .col-xs-6:nth-child(27) .all-partner-tile,.all-partner-tile,  .col-xs-6:nth-child(25){
+    background-color: #e7e7e7;
+}
+
+.col-xs-6:nth-child(2) .all-partner-tile, .col-xs-6:nth-child(4) .all-partner-tile, .col-xs-6:nth-child(5) .all-partner-tile, 
+.col-xs-6:nth-child(7) .all-partner-tile, .col-xs-6:nth-child(10) .all-partner-tile, .col-xs-6:nth-child(12) .all-partner-tile, .col-xs-6:nth-child(20) .all-partner-tile,
+.col-xs-6:nth-child(13) .all-partner-tile, .col-xs-6:nth-child(15) .all-partner-tile, .col-xs-6:nth-child(18) .all-partner-tile,  
+.col-xs-6:nth-child(21) .all-partner-tile, .col-xs-6:nth-child(23) .all-partner-tile, 
+ .col-xs-6:nth-child(26) .all-partner-tile, .col-xs-6:nth-child(28) .all-partner-tile, .col-xs-6:nth-child(29) .all-partner-tile{
+    background-color: #fff;
+}
+
+.all-partner-tile img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.all-partner-tile .btn-outline-grey {
+    display: inline-block;
+    border: 2px solid #bdbdbd;
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+/*iPhone EMI Offer*/
+.iphone-emi_wrap .hidden_container ul li {
+    padding-bottom: 0;
+}
+
+.hidden_container_wrap .table {
+    width: auto;
+    margin: 20px 0;
+}
+
+.hidden_container_wrap .table > tbody > tr > td, .table > tbody > tr > th {
+    padding: 10px 30px;
+    vertical-align: middle;
+    border: 1px solid #a1a1a1;
+    color: #000;
+    font-weight: 400;
+    min-width: 170px;
+    text-align: center;
+}
+
+.hidden_container_wrap th {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hidden_container_wrap .tnc_title {
+    margin-top: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*Cashify Page*/
+.cashify-page.affordability_wrap .inner_page_banner {
+    background: url(../images/new-design-img/cashify_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cashify-page .nav-tabs.nav-justified {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 15px
+}
+
+.cashify-page .nav-tabs.nav-justified > li > a {
+    border-radius: 0;
+    border: none !important;
+    color: #000;
+    font-size: 16px;
+    font-family: 'SFProText-Light', sans-serif;
+}
+
+.cashify-page .nav-tabs > li.active > a, .cashify-page .nav-tabs > li.active > a:focus, .cashify-page .nav-tabs > li.active > a:hover {
+    background-color: #41b0bc;
+    color: #fff;
+}
+
+.cashify-page .emi-calculator {
+    padding: 35px 0;
+    text-align: left;
+}
+
+.cashify-page .emi-calculator h1 {
+    margin-bottom: 15px;
+}
+
+.cashify-page .form-control {
+    font-family: 'SFProText-Regular', sans-serif;
+    color: #a1a1a1;
+    padding: 15px 20px;
+    height: 50px;
+}
+
+.cashify-page .blue-title {
+    text-align: left;
+    color: #4cb4bf;
+    font-size: 16px;
+    font-family: 'SFProText-Regular', sans-serif;
+}
+
+.cashify-page .product-title {
+    text-align: left;
+    color: #303030;
+    font-size: 18px;
+    font-family: 'SFProText-Regular', sans-serif;
+    margin-bottom: 20px;
+}
+
+.cashify-page .table > tbody > tr > td, .cashify-page .table > tbody > tr > th {
+    text-align: center !important;
+    border: 1px solid #a1a1a1;
+    width: 25%;
+}
+
+.cashify-page .table.col-1 {
+    width: 200px;
+}
+
+.text-container.new_hdfc img {
+    padding: 1% 0;
+}
+
+.feature_iphone ul.logo_list {width: 100%; margin: 0;padding: 0;}
+.feature_iphone ul.logo_list li {list-style: none; display: inline-block; line-height: 40px; padding: 0 15px; border-right: 1px solid #c3c3c3;}
+.feature_iphone ul.logo_list li:first-child {padding-left: 0}
+.feature_iphone ul.logo_list li:last-child {padding-right: 0; border-right: none;}
+
+@media (min-width: 1200px ) {
+    .headphones-img {
+        max-height: 265px;
+    }
+}
+
+@media (max-width: 992px) {
+    .iphone-x-text img {
+        padding: 0 !important;
+    }
+
+    .text-container p span {
+        margin: 0;
+        padding: 5px 0;
+        border: none !important;
+        display: block;
+    }
+
+    .text-container img {
+        max-height: 30px;
+    }
+
+    .m-no-padding {
+        padding: 0 !important;
+    }
+
+    .affordability_wrap .sl-header {
+        padding-top: 30px;
+    }
+
+    .affordability_wrap .sl-header h1 {
+        margin-bottom: 30px;
+    }
+
+    .affordability_wrap .sl-header .sl-radio {
+        display: inline-block;
+    }
+
+    .col-xs-6:nth-child(1) .all-partner-tile, .col-xs-6:nth-child(3) .all-partner-tile, .col-xs-6:nth-child(5) .all-partner-tile, .col-xs-6:nth-child(7) .all-partner-tile, .col-xs-6:nth-child(9) .all-partner-tile, .col-xs-6:nth-child(11) .all-partner-tile, .col-xs-6:nth-child(13) .all-partner-tile, .col-xs-6:nth-child(15) .all-partner-tile, .col-xs-6:nth-child(17) .all-partner-tile {
+        background-color: #e7e7e7;
+    }
+
+    .col-xs-6:nth-child(2) .all-partner-tile, .col-xs-6:nth-child(4) .all-partner-tile, .col-xs-6:nth-child(6) .all-partner-tile, .col-xs-6:nth-child(8) .all-partner-tile, .col-xs-6:nth-child(10) .all-partner-tile, .col-xs-6:nth-child(12) .all-partner-tile, .col-xs-6:nth-child(14) .all-partner-tile, .col-xs-6:nth-child(16) .all-partner-tile, .col-xs-6:nth-child(18) .all-partner-tile {
+        background-color: #fff;
+    }
+}
+
+@media only screen  and (min-device-width: 768px)  and (max-device-width: 1024px) {
+    .header-placement {
+        margin-top: 130px !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header-placement {
+        margin-top: 130px !important;
+    }
+
+    .iphone-x-prelauch .outer-container-sk {
+        padding: 0 !important;
+    }
+
+    .text-container.new_hdfc h1 span {
+        font-size: 22px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .header-placement {
+        margin-top: 65px !important;
+    }
+}
+
+@media (min-width: 768px)  {
+    .text-container.new_hdfc p span {
+        font-size: 15px;
+    }
+
+    .text-container.banner_hm1 p span {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .text-container.new_hdfc h1 span {
+        font-size: 26px;
+    }
+}
+@media (max-width: 767px) {
+
+    .cashify-page .nav-tabs.nav-justified > li {
+        float: left;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .masonry-block {
+        height: 280px;
+        padding: 20px 0;
+    }
+
+    .masonry-block .banner-content {
+        width: 100%;
+        height: 280px;
+    }
+
+    .masonry-block img {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+        height: 50px;
+    }
+
+    .hompage-banner h1 {
+        font-size: 16px !important;
+        line-height: 20px;
+        margin: 5px 0;
+    }
+
+    .text-container.new_citi h1 span {
+        font-size: 14px !important;
+    }
+
+    .text-container p span {
+        font-size: 10px;
+        margin: 0;
+        padding: 5px 0;
+        border: none !important;
+        line-height: 15px;
+        display: block;
+    }
+
+    .text-container img {
+        max-height: 30px;
+    }
+
+    .btn-blue {
+        font-size: 12px !important;
+        padding: 5px 15px;
+    }
+
+    .hompage-banner, .hompage-banner .banner-content, .ipad-emi-banner.hompage-banner, .ipad-emi-banner.hompage-banner .banner-content {
+        height: 200px;
+    }
+
+    .responsive-img {
+        max-height: 160px;
+    }
+
+    .tnc_bottom-left:before {
+        display: none;
+    }
+
+    .emi-title {
+        font-size: 26px;
+    }
+
+    .emi-title span, .emi-sub-titile {
+        font-size: 14px;
+    }
+
+    .page-title {
+        font-size: 16px !important;
+    }
+
+    .inner-container {
+        padding: 40px 0;
+    }
+
+    .m-no-padding {
+        padding: 0 !important;
+    }
+
+    .banner_cont1 h1 {
+        font-size: 28px !important;
+    }
+
+    .inner_page_banner {
+        height: 200px;
+    }
+
+    .dealers-logo ul li {
+        margin-bottom: 10px;
+    }
+
+    .dealers-logo ul li {
+        width: 20%;
+        min-width: 100px;
+    }
+
+    .col-xs-6:nth-child(1) .all-partner-tile, .col-xs-6:nth-child(4) .all-partner-tile, .col-xs-6:nth-child(5) .all-partner-tile, .col-xs-6:nth-child(8) .all-partner-tile, .col-xs-6:nth-child(9) .all-partner-tile, .col-xs-6:nth-child(12) .all-partner-tile, .col-xs-6:nth-child(13) .all-partner-tile, .col-xs-6:nth-child(16) .all-partner-tile, .col-xs-6:nth-child(17) .all-partner-tile {
+        background-color: #e7e7e7;
+    }
+
+    .col-xs-6:nth-child(2) .all-partner-tile, .col-xs-6:nth-child(3) .all-partner-tile, .col-xs-6:nth-child(6) .all-partner-tile, .col-xs-6:nth-child(7) .all-partner-tile, .col-xs-6:nth-child(10) .all-partner-tile, .col-xs-6:nth-child(11) .all-partner-tile, .col-xs-6:nth-child(14) .all-partner-tile, .col-xs-6:nth-child(15) .all-partner-tile, .col-xs-6:nth-child(18) .all-partner-tile {
+        background-color: #fff;
+    }
+
+    .iphone-x-prelauch .outer-container-sk {
+        padding: 0 !important;
+    }
+
+    .feature_iphone ul.logo_list li {line-height: 20px; padding:0 3px; }
+    .feature_iphone ul.logo_list {margin-bottom: 10px;}
+    .text-container img {max-height: 26px;}
+
+.subtxt_rp {
+    font-size: 11px !important;
+
+    padding-top: 10px !important;
+}
+}
+.subtxt_rp{
+    font-size: 14px;
+    color: #000;
+   padding-top: 15px;
+   line-height: 15px;
+   font-weight: 600;
+
+}
+
+.newtxtcontainer.new_hdfc img{
+    padding: 0 0 !important;
+}
+@media (max-width: 550px) {
+    .finance-offers-wrap .col-xs-4 {
+        width: 50%;
+    }
+
+    .finance-offers-wrap .padding-10 {
+        padding: 5px 2px !important;
+    }
+
+    .all-partner-page-banner-wrap .all-partner-tile-cont .col-md-3 {
+        width: 100% !important;
+    }
+
+    .col-xs-6:nth-child(1) .all-partner-tile, .col-xs-6:nth-child(3) .all-partner-tile, .col-xs-6:nth-child(5) .all-partner-tile, .col-xs-6:nth-child(7) .all-partner-tile, .col-xs-6:nth-child(9) .all-partner-tile, .col-xs-6:nth-child(11) .all-partner-tile, .col-xs-6:nth-child(13) .all-partner-tile, .col-xs-6:nth-child(15) .all-partner-tile, .col-xs-6:nth-child(17) .all-partner-tile {
+        background-color: #e7e7e7;
+    }
+
+    .col-xs-6:nth-child(2) .all-partner-tile, .col-xs-6:nth-child(4) .all-partner-tile, .col-xs-6:nth-child(6) .all-partner-tile, .col-xs-6:nth-child(8) .all-partner-tile, .col-xs-6:nth-child(10) .all-partner-tile, .col-xs-6:nth-child(12) .all-partner-tile, .col-xs-6:nth-child(14) .all-partner-tile, .col-xs-6:nth-child(16) .all-partner-tile, .col-xs-6:nth-child(18) .all-partner-tile {
+        background-color: #fff;
+    }
+}

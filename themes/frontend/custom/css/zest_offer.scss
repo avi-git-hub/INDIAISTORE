@@ -1,0 +1,230 @@
+@import "mixins";
+section.hero-banner {
+  margin-bottom: 50px;
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+  .slider-item {
+    picture {
+      // width: auto;
+      background-color: #fff;
+    }
+  }
+
+  .tns-outer .tns-nav {
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    //   bottom: -20px;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    button {
+      //     height: 5px;
+      background-color: black;
+    }
+    button.tns-nav-active {
+      background-color: #616161;
+    }
+  }
+}
+
+.buy-offline {
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.terms-and-conditions {
+  padding: 4% 0;
+
+  .order_heading {
+    background-color: #fff;
+    border-bottom: none;
+    // padding: 0 30px;
+  }
+
+  .order_title {
+    color: #303030;
+    // font-family: "SF Pro Text", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 30px 0;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .order_body {
+    padding: 30px 10px;
+  }
+  ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 0 20px;
+    margin: 0;
+    li {
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 0.8;
+      list-style: disc;
+      line-height: 24px;
+    }
+    li ol li {
+      list-style: inherit;
+    }
+  }
+  .panel {
+    // margin-bottom: 20px;
+    // border-color: #ddd;
+    // background-color: #fff;
+    // border: 1px solid #ddd;
+    // border-radius: 4px;
+    // -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    // box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  }
+}
+
+.offer_details {
+  margin: 20px 0 60px 0;
+  @media (max-width: 768px) {
+    margin: 0 0 30px 0;
+  }
+
+  .offer_date {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .offer_details_list {
+    margin-top: 20px;
+    ul {
+      list-style-type: disc;
+      padding-left: 1em;
+      li {
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+/* section.hero-banner {
+  .slider-item {
+    //padding-bottom: 50px;
+    a {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
+    .hero {
+      width: 100%;
+    }
+    picture {
+      display: inline-block;
+      background-color: #000;
+      width: 100%;
+      text-align: center;
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+        &.dex {
+          display: none;
+        }
+      }
+      @include media-min(lg) {
+        @include IE11 {
+          img {
+            &.mob {
+              display: none;
+            }
+            &.dex {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    // .mini { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 50%); transition: 0.3s; }
+    // &.tns-slide-active + .slider-item .mini { left: -20px; transform: translate(0, 50%); }
+    .videoCtaBtn {
+      position: absolute;
+      top: 240px;
+      right: 0%;
+      left: 0;
+      text-align: center;
+      padding: 7.5px;
+      border: 1px solid;
+      color: #fff;
+      width: 140px;
+      border-radius: 2px;
+      margin: auto;
+      font-size: 16px;
+      font-weight: normal;
+      letter-spacing: 0.02em;
+      // text-transform: uppercase;
+      z-index: 1;
+      transition: all 0.3s ease;
+      transform: translateY(100px);
+
+      @include media-max(md) {
+        top: 220px;
+      }
+    }
+    .playButton {
+      display: none;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      margin: 0 auto;
+      img {
+        width: 100px;
+      }
+    }
+  }
+  .tns-outer {
+    position: relative;
+    .tns-nav {
+      font-size: 0;
+      position: absolute;
+      bottom: 40px;
+      left: 15px;
+      z-index: 1;
+      @include media-min(lg) {
+        left: 10.5%;
+        bottom: 50px;
+        @include IE11 {
+          bottom: 70px;
+        }
+      }
+      @media screen and (min-width: 1920px) {
+        left: calc(23% - 15px);
+      }
+      @media screen and (min-width: 2560px) {
+        left: calc(29.5% - 10px);
+      }
+      button {
+        width: 10px;
+        background-color: #fff;
+        border: none;
+        margin-right: 10px;
+        opacity: 0.2;
+        height: 3px;
+        transition: 0.3s;
+        &.tns-nav-active {
+          opacity: 1;
+          background-color: #a9a9a9;
+          width: 50px;
+        }
+      }
+    }
+  }
+} */

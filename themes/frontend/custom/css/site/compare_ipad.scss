@@ -1,0 +1,276 @@
+.compare-copy {
+    padding: 5% 0;
+}
+
+.bottom_desc {
+    padding: 30px;
+}
+
+main#compare-ipad {
+    img {
+        vertical-align: bottom;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+main#compare-ipad {
+    td strong {
+        font-size: 14px;
+        line-height: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+.section-legal {
+    .disclaimer-copy ol li {
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 5px;
+        line-height: 14px;
+    }
+}
+
+.bottom_desc {
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: small;
+}
+
+.inner-table tr:nth-child(1) td img,
+.inner-table tr:nth-child(7) td img {
+    width: 80px;
+}
+
+.ipad_compare_new {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0%;
+}
+
+hr {
+    background: none;
+}
+
+.mrgnbrdr {
+    border-top: 2px solid #d2d2d2;
+    margin-right: 30px
+}
+
+.subtxt_rp {
+    font-size: 14px;
+    color: #000;
+    padding-top: 15px;
+    line-height: 15px;
+    font-weight: 600
+}
+
+.newtxtcontainer.new_hdfc img {
+    padding: 0 0!important
+}
+
+.navbar-brand>h1>img {
+    display: block;
+    max-height: 34px
+}
+
+.navbar-brand>img {
+    display: block;
+    max-height: 34px
+}
+
+.no-border h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.centerpic {
+    text-align: center;
+}
+
+.centerpic1 {
+    padding-left: 35px;
+}
+
+.btn-pad {
+    padding: 5px 25px
+}
+
+.clrfnt {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sz {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.fntsz {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.comparison-table a.btn-bordered.sm.buynw {
+    padding: 5px 27px;
+    border-radius: 24px;
+}
+
+.comparison-table a.btn-bordered.sm.buynw1 {
+    padding: 3% 15%;
+    font-size: .90em !important;
+    line-height: 22px;
+    min-width: auto;
+    border: solid 1px;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 30px;
+    background-image: linear-gradient(to left, #9ed7dd, #2c7cc7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    border: solid 3px #9ed7dd;
+    border-radius: 27px;
+    ;
+}
+
+.brdr>tbody>tr>td {
+    border-top: none;
+}
+
+.brdr>tbody>tr>td>.brdrtp {
+    border-top: 1px solid #ddd;
+    padding: 89px 21px;
+}
+
+.comparison-table .table td .mrgnbtm {
+    margin-bottom: 0px;
+}
+
+.main_heading_ipad {
+    width: 100%;
+    text-align: center;
+}
+
+.cmprimg img {
+    margin-bottom: 70px;
+    width: 50%;
+}
+
+.comparison-table .table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    line-height: 1.4;
+    text-align: center;
+}
+
+.comparison-table .table td,
+.comparison-table .table th {
+    padding: 15px 16px;
+}
+
+td {
+    color: #000 !important;
+}
+
+.ipad_compare_new_t_and_c {
+    width: 88%;
+    padding: 3% 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .offer-tile img {
+        width: auto!important;
+        max-width: 100%!important;
+        min-height: 60px!important;
+        max-height: 120px!important;
+        padding: 15px 0
+    }
+    .feature_iphone ul.logo_list {
+        width: 100%;
+        margin: 0;
+        padding: 0
+    }
+    .feature_iphone ul.logo_list li {
+        list-style: none;
+        display: inline-block;
+        line-height: 40px;
+        padding: 0 15px;
+        border-right: 1px solid #c3c3c3
+    }
+    .feature_iphone ul.logo_list li:first-child {
+        padding-left: 0
+    }
+    .feature_iphone ul.logo_list li:last-child {
+        padding-right: 0;
+        border-right: none
+    }
+    .text-container p span {
+        max-width: 290px
+    }
+    .text-container.new_hdfc.iphone-x-text h1 {
+        width: 100%
+    }
+    .feature_iphone ul.logo_list li {
+        line-height: 20px;
+        padding: 0 3px
+    }
+    .feature_iphone ul.logo_list {
+        margin-bottom: 10px
+    }
+    .text-container img {
+        max-height: 26px
+    }
+    .ip8 {
+        width: 80px
+    }
+    .subtxt_rp {
+        font-size: 11px!important;
+        padding-top: 10px!important
+    }
+    .rarrng {
+        vertical-align: none;
+        max-width: none;
+    }
+    .no-border {
+        text-align: left;
+    }
+    .no-border {
+        width: 50%;
+    }
+    .no-border h3 {
+        text-align: left;
+    }
+    .mrgnbrdr {
+        width: 65%;
+        margin: 0;
+    }
+    .ipad_compare_new {
+        width: 90%;
+    }
+    .cmprimg img {
+        margin: 8% 0px;
+        width: 100%;
+    }
+    ol,
+    ul {
+        padding: 0;
+    }
+    .bottom_desc {
+        padding: 5% 5%;
+    }
+    .ipad_compare_new_t_and_c {
+        width: 90%;
+    }
+    .fntsz {
+        font-size: 10vw;
+    }
+}

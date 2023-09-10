@@ -1,0 +1,235 @@
+@import '../mixins';
+section.apple_care_wrapper{
+  text-align: center;
+  .logo_img{
+    text-align: center;
+    padding: 1.5rem 15px;
+  }
+  h1{
+    font-size: 42px;
+    line-height: 43px;
+    color: black;
+    @include media-max(md) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  .emi_calc_heading{
+    width: 80%;
+    padding: 1.5rem 15px;
+    margin: 0 auto;
+    @include media-max(md) {
+      width: 100%;
+
+    }
+    h2{
+      line-height: 32px;
+      color: black;
+      font-family: "SF Pro Text",sans-serif;
+      font-size: 28px;
+      @include media-max(md) {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.container_1280 {width: 1280px;}
+
+
+.emi_calculator {background-color: #f7f7f7; padding: 80px 0; display: inline-block; width: 100%;}
+.emi_calculator h2 {font-weight: 700; margin-top: 0; margin-bottom: 50px; text-align: center;}
+.emi_calculator h2 span {border-bottom: 2px solid #000000;}
+.emi_calculator .form-control {background-color: transparent; border: none; border-bottom: 1px solid #d7d7d7; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; color: #f4f4f4; transition: none;}
+
+.mrp_calculation {margin-top: 70px;}
+.mrp_calculation p {color: #000;}
+.mrp_calculation .mrp_row {display: flex; text-align: left;}
+.mrp_calculation .mrp_row p:last-child {margin-left:40px;}
+.mrp_calculation .mrp_row .mrp_row_label {width: 60%;font-weight: 300;margin-bottom: 15px;font-size: 16px;}
+
+.br-mobile {display: none;}
+
+    .for_epc{
+        color:#000 !important;
+        opacity: .6;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .panel {
+        margin-bottom: 20px;
+        border-color: #ddd;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+@media (max-width:1024px) {
+    .container_1280 {width: inherit;}
+    .offer_repeatable {margin-bottom: 20px;}
+    .offer_date {max-width: 80%;}
+    .oa-devies li {padding-right: 20px; margin-right: 20px;}
+    .emi_calc_form {display: inline-block;}
+    .mrp_calculation {margin-top: 40px; display: inline-flex;}
+    .text-center-mobile {text-align: center;}
+}
+
+@media (max-width:767px) {
+    .offer_features, .oa-devies {flex-direction: column;}
+    .offer_features li {border: none;}
+    .oa-devies li {border: none; font-size: 18px;}
+    .offer_section p,.offer_applicable p {font-size: 18px;}
+    .offer_section h2, .emi_calculator h2 {font-size: 26px;}
+    .offer_section .offer_repeatable .offer_info p, .offer_date p {font-size: 20px;}
+    .offer_date {flex-direction: column;}
+    .offer_date .cal_icon {margin-right: 0; padding-right: 0; margin-bottom: 20px;}
+    .emi_calculator {padding: 50px 0;}
+    .mrp_calculation .mrp_row .mrp_row_label {min-width: auto; width: 50%;}
+    .hero_banner {flex-direction: column-reverse;}
+    .hero_banner .hero_content {margin-top: 35px;}
+    .hero_banner .hero_content h2 {font-size: 32px;}
+    .hero_banner .hero_content .starting_at {line-height: 36px;width: auto;display: inline-block;border-bottom: 2px solid #db0011;}
+    .hero_banner .hero_content .starting_at span {border-bottom: none; padding-top: 0;}
+    .br-mobile {display: block;}
+}
+
+section.apple-premium-resellers {
+  @include section-margin-btm;
+  @include section-margin-top;
+  .heading-2{
+    font-family: "SF Pro Text",sans-serif;
+    font-size: 28px;
+  }
+  .seller-list {
+    font-size: 0;
+    text-align: left;
+    li {
+      display: inline-block;
+      width: 33.33%;
+      font-size: 0;
+      text-align: center;
+      margin-top: 20px;
+      border-left: solid 1px #ececec;
+      @include media-max(lg) {
+        &:nth-child(3n + 1) {
+          border-left: none;
+        }
+      }
+
+      @include media-min(lg) {
+        width: 25%;
+        margin-top: 40px;
+        border-left: solid 1px #ececec;
+        &:nth-child(4n + 1) {
+          width: 24%;
+          text-align: center;
+          border-left: none;
+        }
+        &:nth-child(4n + 4) {
+          width: 24%;
+          text-align: center;
+        }
+        &:nth-child(4n + 2),
+        &:nth-child(4n + 3) {
+          width: 24%;
+        }
+      }
+
+      img {
+        max-width: 80%;
+        max-height: 200px;
+      }
+    }
+  }
+}
+
+
+.seller-list li {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.seller-list li .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.seller-list li:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.seller-list li:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+
+section.tnc_section{
+  @include section-margin-btm;
+  h3{
+    color: #303030;
+    font-family: "SF Pro Text",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 0;
+  }
+  ul {
+    padding:5px 15px;
+    li{
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: 400;
+      opacity: .8;
+      list-style: disc;
+      line-height: 24px;
+    }
+  }
+}

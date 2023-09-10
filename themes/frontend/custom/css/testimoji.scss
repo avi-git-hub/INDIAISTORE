@@ -1,0 +1,65 @@
+@import "mixins";
+
+#testimoji {
+  overflow-x: hidden;
+}
+
+section.test-imaoji {
+  width: 100%;
+  background: #f5f5f7;
+  padding-bottom: 50px;
+
+  .banner {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .dex {
+    display: inline-block;
+    @include media-max(sm) {
+      display: none;
+    }
+  }
+  .mob {
+    display: none;
+
+    @include media-max(sm) {
+      display: block;
+    }
+  }
+}
+
+.know-more-cta {
+  background: #000;
+  text-align: center;
+  padding-bottom: 20px;
+  a {
+    border-radius: 30px;
+    border: 1px solid #999999;
+    color: #999999;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 10px 10px;
+  }
+}
+.switch_to_know_more {
+  background: #fff;
+  text-align: center;
+  padding: 50px 0;
+  h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  a {
+    border-radius: 6px;
+    border: 1px solid #000;
+    // color: #999999;
+    font-size: 24px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 10px 10px;
+  }
+}

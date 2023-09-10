@@ -1,0 +1,15 @@
+User-agent: *
+User-agent: AdsBot-Google 
+User-agent: Googlebot 
+User-agent: Googlebot-Image
+Allow:
+Disallow: /site/product/load_product/macbook-pro-41cm-new
+Disallow: /site/product/load_product/macbook-pro-35cm-new
+Disallow: /user
+Disallow: /user/login
+Disallow: /search
+Disallow: /*?category=tv
+Disallow: /files/uploads/bank_offers/buyback_offer/icici_buyback_offer.pdf
+
+
+Sitemap: https://www.indiaistore.com/sitemap.xml

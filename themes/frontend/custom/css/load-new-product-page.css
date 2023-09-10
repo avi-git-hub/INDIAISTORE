@@ -1,0 +1,945 @@
+@media (min-width: 1000px){
+    section.product-info .media-panel .shot-carousel {
+        width:190px;padding-right:0;}
+
+    .nextButton{
+        position: absolute;
+        top: 460px;
+        z-index: 9;
+    }
+
+    .prevButton{
+        position: absolute;
+        top: 30px;
+    }
+
+    section.product-info .media-panel .main-img {
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+section.product-info .media-panel .shot-carousel {
+  height: 75% !important;
+ 
+}
+
+@media (min-width: 1100px){
+    section.product-info .media-panel .shot-carousel {width: 90px;padding-right:0;}
+
+    .nextButton{
+        position: absolute;
+        top: 75%;
+        z-index: 9;
+    }
+
+    .prevButton{
+        position: absolute;
+        top: 30px;
+    }
+
+    section.product-info .media-panel .main-img {
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+  .media-panel{display: flex;flex-direction: row-reverse;}
+
+    section.product-info .info-panel .price-calculator .selection.color .color-item .circle {border-radius: 15%;}
+    .product-color-red, .product-color-blue, .product-color-purple, .product-color-midnight, .product-color-starlight, .product-color-deep-purple, .product-color-gold, .product-color-silver, .product-color-pink, .product-color-yellow, .product-color-space-black, .product-color-space-grey, .product-color-green, .product-color-white, .product-color-orange {background-color: transparent !important;}
+    .product-color-deep-purple:after {
+      background-color: #594F63 !important;
+    }
+    .product-color-red:after{background-color: #bb072c;}
+    .product-color-blue:after{background-color: #A0B4C7 !important;}
+    .product-color-purple:after{background-color: #E6DDEB !important;}
+    .product-color-midnight:after{background-color: #222930 !important;}
+    .product-color-starlight:after{background-color: #FAF6F2 !important;}
+    .product-color-space-grey:after {background-color: #7d7f82 !important;}
+    .product-color-gold:after{background-color:#F4E8CE !important}
+.product-color-silver:after{background-color:#dddfde !important}
+.product-color-space-black:after{background-color:#403E3D !important}
+.product-color-orange:after{background-color: #f2b6a2;}
+
+.product-color-pink:after {
+  background-color: #FADDD7 !important;
+}
+.product-color-white:after {
+  background-color: #F6F2EF !important;
+}
+.product-color-green:after {
+  background-color: #394C38 !important;
+}
+.product-color-yellow:after {
+  background-color: #fce686;
+}
+
+.pnBtn {display: flex;position: absolute;max-width: 100%;width: 100%;top: 0;left:-45px;height: 100%;}
+.nextButton::before{content: "\2039";font-size: 47px;position: absolute;top: -15px;transform: rotate(90deg);}
+.prevButton::before{content: "\203A";font-size: 47px;position: absolute;bottom: 0;transform: rotate(90deg);}
+section.product-info .media-panel .main-img img {width: 85%;}
+
+@media(max-width:767px){
+  .new-price-font h3 {
+    font-weight: 500;
+    font-size: 14px !important;}
+  #emioptiondetailsdata .close{
+    margin-top: 10px !important;
+  }
+  .info-panel{margin-top: 15px;}
+  #modal_bank_offers .tab-content {
+    padding: 5px 6px !important;
+}
+  .media-fix .stick-ul{display:none;}
+  /* #cal-new-price-mrp{padding-left: 20px !important;} */
+  /* #modal_bank_offers_loans .modal-dialog {top: 30% !important;} */
+  .availableoffertandc h3, #benefirmodaldata .table.table-bordered th{font-size:16px !important;}
+  #emioptiondetailsdata{padding-top: 0 !important;}
+  .offerheading {padding-left: 50px !important;padding-bottom: 13px !important;}
+  #cal-new-or span {padding: 5px 4px !important;font-size: 15px !important;}
+  .new-or h3{font-size:15px !important;}
+   #bankoffertandc, #loanoffertandc, #iphoneforlifetandc, #tradeintandc, #modal_bank_offers, #emioptiondetails, #benefitdetails{top:0px!important;color:#000000;}
+   #modal_bank_offers_loans{top:40px;} 
+  section.product-info .media-panel .shot-carousel {
+    margin-top: 44px;
+}
+section.product-info .info-panel .price-calculator .selection.rect .attribute-list .attribute {
+  padding: 8px 11px !important;}
+    section.product-info .media-panel .shot-carousel {
+        padding: 0px;
+        width: 100px;
+        z-index: 9;
+    }
+    section.product-info .media-panel .main-img {
+        padding: 0 0px;
+        text-align: center;
+    }
+    .pnBtn {
+        display: block !important;
+        width: 0;
+        height: 100%;
+        z-index: 9;
+        left:-37px !important
+    }
+    .prevButton::before {
+        bottom: -22px;
+        transform: rotate(271deg);
+        left: -15px;
+    }
+    .nextButton::before {
+        top: -15px;
+        transform: rotate(270deg);
+        left: -15px; 
+    }
+    header{
+        z-index: 99;
+    }
+    .nextButton{
+      top: 55% !important;
+   }
+   .media-panel {
+    display: block;
+  }
+
+  section.product-info .media-panel .shot-carousel {
+    padding: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  section.product-info .info-panel .price-calculator{margin-top: 60px !important;}
+  .mo-visible {
+    display: block !important;
+    overflow: hidden;
+}
+  .media-fix .stick-ul{display:none;}
+}
+@media (min-width: 768px){
+  
+  modal-dialog
+    header{
+        z-index: 99;
+    }
+    .pnBtn {
+        display: block !important;
+        width: 0;
+        height: 100%;
+    }
+    .prevButton::before {
+        bottom: -26px;
+        transform: rotate(271deg);
+        left: -30px;
+    }
+    .nextButton::before {
+        top: -15px;
+        transform: rotate(270deg);
+        left: -30px;
+    }
+    section.product-info .media-panel .shot-carousel {
+        padding: 0px;
+        width: 120px;
+        height: 100%;
+        z-index: 1;
+    }
+    section.product-info .media-panel .main-img img {
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px){
+    .pnBtn {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        max-width: 100%;
+        width: 59px !important;
+        bottom: -70px;
+        left: -28px !important;
+    }
+    .prevButton::before {
+        content: "\203A";
+        font-size: 47px;
+        position: absolute;
+        bottom: 0;
+        transform: rotate(90deg);
+    }
+    .nextButton::before {
+        content: "\2039";
+        font-size: 47px;
+        position: absolute;
+        top: -15px;
+        transform: rotate(90deg);
+    }
+    section.product-info .media-panel .shot-carousel {
+        width: 90px;
+        padding-right: 0;
+    }
+
+
+}
+@media (min-width: 1200px){
+    .pnBtn {
+        left: -45px !important;
+    }
+    .nextButton{
+      position: absolute;
+      bottom: 0;
+      top: auto;
+    }
+
+}
+
+#benefirmodaldata thead, #emioptiondetailsdata thead, #loanoffertandc thead, #tradeintandc thead, #iphoneforlifetandc thead{
+    background-color: #47b0bb;
+    border-color: #47b0bb;
+    color: #ffffff;
+}
+
+#benefirmodaldata .modal-dialog,
+#emioptiondetailsdata .modal-dialog {
+  max-width: 50%;}
+  @media (max-width: 767px) {
+    section.product-info .info-panel .price-calculator .selection.color{margin-top: 30px;}
+    .nocostemi{font-size: 9px !important;}
+}
+.new-price-font h3 {
+  font-weight: 500;
+  font-size: 17px !important;}
+
+#benefirmodaldata .nav-tabs, #emioptiondetailsdata .nav-tabs, #tradeintandc .nav-tabs, #iphoneforlifetandc .nav-tabs{
+  margin: 15px 0;
+}
+
+#benefirmodaldata li, #emioptiondetailsdata li, #tradeintandc .li, #iphoneforlifetandc li {
+  margin-bottom: -6px;
+  padding: 4px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 4px;
+}
+
+
+#benefirmodaldata li a, #emioptiondetailsdata li a, #tradeintandc a, #iphoneforlifetandc a {
+  color: #555555;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#benefirmodaldata a.active, #emioptiondetailsdata a.active, #tradeintandc a.active, #iphoneforlifetandc a.active {
+  border-bottom: 3px solid #47b0bb;
+  color: #47b0bb;
+}
+#emioptiondetailsdata a.active, #emioptiondetailsdata a.active {
+  border-bottom: 3px solid #47b0bb;
+  color: #47b0bb;
+  padding-bottom: 8px;
+}
+
+#benefirmodaldata .table.table-bordered,
+#emioptiondetailsdata.table.table-bordered, #tradeintandc .table.table-bordered, #iphoneforlifetandc .table.table-bordered{
+  border-collapse: separate;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 0;
+  border: none;
+}
+
+#benefirmodaldata thead,
+#emioptiondetailsdata thead {
+  background-color: #47b0bb;
+  border-color: #47b0bb;
+  color: #ffffff;
+}
+
+#benefirmodaldata .table.table-bordered th,
+#emioptiondetailsdata .table.table-bordered th, #loanoffertandc .table.table-bordered th, #tradeintandc .table.table-bordered th, #iphoneforlifetandc .table.table-bordered th{
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+#benefirmodaldata .table.table-bordered td,
+#emioptiondetailsdata .table.table-bordered td, #loanoffertandc .table.table-bordered td, #tradeintandc .table.table-bordered td, #iphoneforlifetandc .table.table-bordered td, #benefirmodaldata td, #loanoffertandc td, #tradeintandc td, #iphoneforlifetandc td{
+  border-top: none;
+  border-color: rgb(224, 224, 224);
+  color: #000 !important;
+  font-family: "SFProText-Regular", sans-serif;
+  font-size: 14px;
+}
+
+#benefirmodaldata .table.table-bordered th,
+#emioptiondetailsdata .table.table-bordered th,
+#benefirmodaldata .table.table-bordered td,
+#emioptiondetailsdata .table.table-bordered td, #loanoffertandc .table.table-bordered td, #tradeintandc .table.table-bordered td, #iphoneforlifetandc .table.table-bordered td {
+  padding: 15px 20px;
+  vertical-align: middle;
+}
+
+#benefirmodaldata .table.table-bordered td span,
+#emioptiondetailsdata .table.table-bordered td span, #tradeintandc .table.table-bordered td span, #iphoneforlifetandc .table.table-bordered td span {
+  color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+  font-weight: 600;
+}
+
+#benefirmodaldata .table.table-bordered td:first-child,
+#emioptiondetailsdata.table.table-bordered td:first-child {
+  width: 35%;
+  font-size: 14px;
+  border-right: none;
+}
+
+#tradeintandc, #iphoneforlifetandc{font-family: "SFProText-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.9;}
+#benefirmodaldata .table.table-bordered td:last-child,
+#emioptiondetailsdata .table.table-bordered td:last-child {
+  width: 65%;
+}
+
+#benefirmodaldata .table.table-bordered tr:last-child td:first-child,
+#emioptiondetailsdata .table.table-bordered tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+#benefirmodaldata .table.table-bordered tr:last-child td:last-child,
+#emioptiondetailsdata .table.table-bordered tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+#emioptiondetailsdata .modal-dialog {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#emioptiondetailsdata .modal-body {
+  padding: 32px 32px;
+}
+
+#emioptiondetailsdata .nav-tabs {
+  padding: 10px 0 0;
+}
+
+#emioptiondetailsdata li {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#emioptiondetailsdata li > a {
+  color: #555555;
+  border: none;
+  letter-spacing: 1px;
+}
+
+#emioptiondetailsdata .table.table-bordered {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 0;
+  border-collapse: separate;
+  border: none;
+}
+
+#emioptiondetailsdata thead {
+  background-color: #47b0bb;
+  border-color: #47b0bb;
+  color: #ffffff;
+}
+
+#emioptiondetailsdata .table.table-bordered th {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+#emioptiondetailsdata .table.table-bordered td {
+  border-top: none;
+  border-color: rgb(224, 224, 224);
+  color: #000;
+  font-family: "SFProText-Regular", sans-serif;
+}
+
+#emioptiondetailsdata .table.table-bordered th,
+#emioptiondetailsdata .table.table-bordered td, #loanoffertandc .table.table-bordered td {
+  padding: 15px 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.9;
+  /* color: #000; */
+}
+
+
+#emioptiondetailsdata .table.table-bordered td span {
+  color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+  font-weight: 600;
+}
+#new-id-mrp {
+ text-decoration: line-through;
+}
+#emioptiondetailsdata .table.table-bordered td:first-child {
+  /* width: 35%; */
+  width: 30%;
+  border-right: none;
+}
+
+#emioptiondetailsdata .table.table-bordered td:last-child {
+  width: 35%;
+}
+
+#emioptiondetailsdata .table.table-bordered tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+#emioptiondetailsdata .table.table-bordered tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+#benefirmodaldata .table.table-bordered td {
+  border-top: none;
+  border-color: #e0e0e0;
+  color: #000;
+  font-family: "SFProText-Regular", sans-serif;
+}
+#benefirmodaldata .table.table-bordered th,
+#benefirmodaldata .table.table-bordered td {
+  padding: 15px 20px;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.table-bordered tbody tr td {
+  border: 1px solid #ddd;
+}
+#benefirmodaldata .tab-content {
+  padding: 30px 20px;
+}
+
+#benefirmodaldata .nav-tabs {
+  margin: 0 20px;
+}
+
+#emioptiondetailsdata .tab-content {
+  /* padding: 30px 20px; */
+}
+
+#emioptiondetailsdata .nav-tabs {
+  margin: 0 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .modal-dialog {
+    max-width: 94% !important;
+    margin: 0 auto;
+  }
+  #emioptiondetailsdata .modal-dialog {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -38%);
+    width: 100%;
+  }
+  #emioptiondetailsdata .tab-content {
+    padding: 15px 0px;
+  }
+  #emioptiondetailsdata .table.table-bordered td {
+    font-size: 12px;
+  }
+  #emioptiondetailsdata .modal-body {
+    padding: 15px 15px;
+  }
+  #emioptiondetailsdata .table.table-bordered td {
+    line-height: 20px;
+  }
+  #emioptiondetailsdata .nav-tabs {
+    flex-wrap: wrap !important;
+  }
+}
+#benefitdetails table td:nth-child(2), #emioptiondetailsdata table td:nth-child(2){
+    text-align:left !important;
+    font-weight: 500 !important;
+    color: #bfbfbf;}
+    #emioptiondetailsdata table td{
+line-height: 1.9;
+    }
+
+    @media (min-width: 576px){
+    #emioptiondetailsdata .modal-dialog {
+        max-width: 578px !important;
+        margin: 1.75rem auto;}
+    }
+    
+   
+      @media (min-width: 768px) {
+        .multi-item-carousel .carousel-inner .carousel-item {
+          margin-right: inherit;
+        }
+        .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item,
+        .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item {
+          display: block;
+        }
+        .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+        .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+        .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+          transition: none;
+        }
+        .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item + .carousel-item {
+          position: absolute;
+          top: 0;
+          right: -33.33333333%;
+          z-index: -1;
+          display: block;
+          visibility: visible;
+        }
+        .multi-item-carousel .carousel-inner .carousel-item-next,
+        .multi-item-carousel .carousel-inner .carousel-item-prev {
+          position: relative;
+          transform: translate3d(0, 0, 0);
+        }
+        .multi-item-carousel .carousel-inner .carousel-item-prev.carousel-item-right {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          display: block;
+          visibility: visible;
+        }
+        .multi-item-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+        .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item,
+        .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+        .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(-100%, 0, 0);
+          visibility: visible;
+        }
+        .multi-item-carousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+        .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item,
+        .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+        .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+          position: relative;
+          transform: translate3d(100%, 0, 0);
+          display: block;
+          visibility: visible;
+        }
+      }
+      #loanoffertandc .table.table-bordered td{border-color: transparent;}
+       #loanoffertandc .table.table-bordered td {
+        padding: 8px 10px;}
+        .modal-dialog{
+          max-width: 50%;
+        }
+        .availableoffertandc ul{
+          list-style-type: disc;
+    padding: 12px 19px;
+    line-height: 1.3;
+    color: #000000;
+    overflow: auto;
+    height: 400px;
+        }
+        .availableoffertandc ul li{
+          color:#000000 !important;
+          font-family: "SFProText-Regular", sans-serif !important;
+          font-size: 12px !important;
+          line-height: 1.3 !important;
+          padding: 3px !important;
+        }
+        .availableoffertandc h3, #benefirmodaldata .table.table-bordered th{
+          font-weight: 600;
+          font-size: 17px;
+          text-align: center;
+          margin: 30px 0px 10px 0px;
+          padding-top: 14px;
+          padding-bottom: 14px;
+          color: #ffffff;
+          border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: #47b0bb;
+    font-family: "SFProText-Semibold", sans-serif;
+        }
+        #emioptiondetailsdata .table.table-bordered td, #benefirmodaldata .table.table-bordered td, #modal_bank_offers .table.table-bordered td{padding: 5px 10px !important;
+          vertical-align: middle;
+          font-size: 12px !important;
+          line-height: 1.3 !important;}
+          #modal_bank_offers_loans .modal-body {
+            padding: 14px 15px !important;
+        }
+        .offerheading span{
+          color: gray !important;
+    font-size: 15px;
+    padding: 3px 6px;
+    border: 2px solid gray;
+    border-radius: 34px;
+    margin-right: 12px;
+        }
+        .offerheading{
+          font-size: 19px;
+          font-family: "SFProText-Semibold", sans-serif;
+          padding: 0px 12px;
+          padding-left:0px;
+          color: #000000;
+          margin-top: 17px;
+        }
+        section.product-info .info-panel .price-calculator .selection.color .color-item .circle{width: 40px !important;
+          height: 40px !important;}
+          section.product-info .info-panel .price-calculator .selection.color .color-item .circle {
+            border-radius: 15% !important;
+        }
+        section.name-price {
+         padding: 10px 0 !important;
+      }
+      .name-price .name img{max-width:200px !important;}
+      section.product-info .info-panel .price-calculator .selection {
+        margin-bottom: 10px !important;
+        padding-bottom: 15px !important;
+    }
+    section.product-info .info-panel .price-calculator h2.heading-2 {
+      margin-bottom: 20px;
+      font-weight: 300;
+      font-size: 22px;
+  }
+  /* .no-bullet:before {
+    content: '\2014' !important;
+    position: absolute; margin-left: -20px;} */
+  .no-bullet{list-style-type:none !important;}
+  .media-fix {
+    position: sticky;
+    top: 150px;
+}
+.modal-dialog{
+  position: absolute !important;
+  top: 55% !important;
+  left: 50% !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-dialog {
+ width:97% !important;
+  margin: 0 !important;
+}
+  /* Hide the element until it has finished upgrading to a Custom Element */
+read-more:not(:defined) {
+  visibility: hidden;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+/* Ensure the element is visible in no-js environments */
+.no-js read-more:not(:defined) {
+  visibility: visible;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+
+read-more button {
+  all: unset;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-family: "SFProText-Semibold", sans-serif;
+  cursor: pointer;
+}
+read-more button:focus,
+read-more button:hover {
+  text-decoration: none;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+#modal_bank_offers td, #modal_bank_offers_loans td{text-align: left !important;
+  font-weight: 500 !important;} 
+  .media-fix .stick-ul{
+    position: absolute !important;
+    width:100%;
+    top: 520px !important;
+    left: 86% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .stick-ul ul li{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.3;
+    padding: 4px;
+    color: #057eff;
+    font-weight: 400;
+    padding-top: 5px;
+    text-decoration: underline;}
+    .mo-visible .stick-ul ul{text-align: center;} 
+    .tocnew .read-more {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      margin-left: 5px !important;
+      font-size: 19px !important;
+    text-decoration: underline !important;
+    border-bottom: 1px solid #408ccb;
+  }
+  .mo-visible .stick-ul{
+    margin-top: 27px;
+    /* border-top: 1px solid #5c5050;
+    border-bottom: 1px solid #4f4848; */
+    padding-bottom: 9px;
+    padding-top: 8px;
+  }
+  .list-menu-compare::before {
+    content:url('https://stage.indiaistore.com/files/uploads/products/pdp/pdp-offer-icon/icon-14-comp.png'); 
+  position:relative;
+ top:10px;
+ padding: 6px;
+  }
+  .list-menu-store::before {
+    content: url('https://stage.indiaistore.com/files/uploads/products/pdp/pdp-offer-icon/store-ic.png');
+    position:relative;
+    top:10px;
+    padding: 6px;
+  }
+  .offer-list-logo img{
+    max-width: 92px;
+    margin: 5px 3px;}
+    .middle-content {
+      min-height: 80px;
+  }
+  .offer-list-logo {
+    min-height: 45px;
+}
+#modal_bank_offers h2{
+  margin-bottom: 13px;
+  margin-top: 8px; 
+  padding: 3px 10px 8px 17px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  padding-bottom: 4px;
+  color: #47b0bb;
+  /* text-decoration: underline; */
+  /* max-width: 25%; */
+  /* background-color: #47b0bb; */
+}
+#modal_bank_offers .table.table-bordered th, #modal_bank_offers .table.table-bordered td {
+  padding: 6px 20px !important;
+  vertical-align: middle;
+  line-height: 1.5 !important;
+}
+#modal_bank_offers .tab-content {
+  padding: 5px 20px !important;
+}
+#modal_bank_offers .modal-content{
+  overflow: auto;
+    height: 550px;
+}
+#modal_bank_offers li {
+ width: 50%;
+ font-size:12px;
+}
+#modal_bank_offers li a{font-size:12px !important;}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  
+
+  .media-fix .stick-ul {
+   top: 390px !important;
+    left: 85% !important;}
+    .media-fix .nextButton {
+     top: 411px;
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+  .offer-list-logo img{
+    max-width: 65px !important;
+    margin: 5px 3px;}
+
+}
+.control {
+  list-style: none;
+}
+.control li {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding: 12px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* .control li:hover {
+  background: #000;
+} */
+.control li.prev {
+  left: 20px;
+}
+.control li.next {
+  right: 20px;
+}
+.tns-nav {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.tns-nav button {
+  /* height: 13px;
+  width: 8px; */
+  /* background-color: #a5a5a5; */
+  border: none;
+  margin-left: 7px;
+  border-radius: 50%;
+}
+@media (max-width: 767px){
+.new-price-font h3 {
+    font-weight: 500;
+    font-size: 13px !important;
+}
+.modal-dialog {
+  top: 60% !important;}
+
+}
+.availableoffertandc ul li ul{
+  height: auto;
+  padding: 0;
+  list-style-type: none;
+}
+.availableoffertandc ul li a{
+  color: #0d66af !important;
+  letter-spacing: 0.6 !important;
+  /* text-decoration: underline !important; */
+}
+.availableoffertandc ul li a:hover{text-decoration: underline !important;}
+section.product-info .info-panel .price-calculator .selection.rect .attribute-list .attribute {
+  padding: 8px 15px !important;}
+.accessories-tabs .nav-item {
+ font-size: 14px !important;
+}
+.accessories-tabs .get-offer-box ul li .offer-col-1 p, .accessories-tabs .get-offer-box ul li .offer-col-2 p {
+font-size: 14px !important;}
+.new-price-font h3 {
+    font-weight: 500;
+    font-size: 14px !important;
+}
+
+.modal-dialog {
+  top: 60% !important;}
+  .emioptiondetails-bg a{display:block;}
+
+.new-bank-offer p {
+  font-size: 15px !important;}
+
+  .emi-op{padding-right: 18px;}
+  .product-mrp{clear: both;margin-top: 45px;}
+  .cd-of a{
+    color: #007bff !important;
+  text-decoration: underline !important;
+  }
+  .accessories-tabs .nav-tabs .nav-link{
+    color:#007bff;
+  }
+  .accessories-tabs .nav-tabs .nav-link.active {
+    color: #000000;
+    background-color: #e4e4e4 !important;
+    border-color: #e4e4e4;
+    margin-bottom: -1px;
+    font-weight: bold;
+    border-bottom: 3px solid #000000 !important;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    /* padding: 6px; */
+    /* height: 40px; */
+    
+}
+.accessories-tabs .nav-tabs .nav-link.hover, .accessories-tabs .nav-tabs .nav-link.focus{
+  color: #0056b3;
+  border-color: transparent;
+}
+.accessories-tabs .nav-tabs li a:hover{
+  background-color: transparent;
+  color: #0056b3;
+  border-color: #000000;
+}
+.accessories-tabs{
+  padding-top: 20px;
+}
+
+.accessories-tabs .nav-item{width:50%;text-align:center;font-size: 17px;}
+@media (max-width: 767px){
+
+.accessories-tabs .nav-tabs .nav-link.hover, .accessories-tabs .nav-tabs .nav-link.focus{
+color: #0056b3;
+border-color: transparent;
+}
+.accessories-tabs .nav-tabs li a:hover{
+background-color: transparent;
+color: #0056b3;
+border-color: transparent;
+}
+}
+.offer-model .table.table-bordered td{
+  text-align: left !important;
+    font-weight: normal !important;
+}
+.offer-model .table.table-bordered td strong{
+  font-weight: normal !important;
+}
+.know-more-back-to{
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.know-more-back-to a{
+  color: #007bff;
+  text-decoration: underline !important;
+}
+
+
+
+
+
+
+  

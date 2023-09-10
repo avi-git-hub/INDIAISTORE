@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: 
+Disallow: /site/product/load_product/macbook-pro-41cm-new
+Disallow: /site/product/load_product/macbook-pro-35cm-new
+Disallow: https://www.indiaistore.com/site/product/load_product/macbook-pro-41cm-new
+Disallow: https://www.indiaistore.com/site/product/load_product/macbook-pro-35cm-new
+
+Sitemap: https://www.indiaistore.com/sitemap.xml

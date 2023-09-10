@@ -1,0 +1,1123 @@
+@import "../mixins";
+
+$width: 100%;
+$width_50: 100%;
+$display: flex;
+$text-align: center;
+$text-align_left: left;
+$padding: 5% 0;
+$h2_font_size: 46px;
+$h5_font_size: 20px;
+$h2_font-weight: 100;
+$h2_font-stretch: normal;
+$h2_font-style: normal;
+$h2_line-height: 1.13;
+$h2_letter-spacing: normal;
+$h2_color: #000000;
+$h5_margin-top: 3%;
+$h5_margin-bottom: 4%;
+$h5_line-height: 1.3em;
+$enterprise_pd_top_bttm: 80px 0;
+$bttn_pd_tp_enterprise: 5% 0 0;
+$margin_para: 10px 0px 0px 0px;
+$font-size_para: 14px;
+$line-height_banner_para: 1.71;
+$padding_tp_para: 30px;
+$padding_left_para: 20%;
+$padding_bttm_hd: 30px;
+$display_box_four: inline-block;
+$padding_box_four: 8% 10%;
+$width_fr_box: 268px;
+$height_fr_box: 161px;
+$padding_left_box: 8px;
+$font-family_box_mac: "SF UI Display", sans-serif;
+$font_size_box: 20px;
+
+#enterprise-body {
+  overflow-x: hidden;
+}
+.wth_apple_logo {
+  padding-left: $padding_left_box;
+  font-family: $font-family_box_mac;
+  font-size: $font_size_box;
+}
+.hd_pd {
+  padding-bottom: $padding_bttm_hd;
+}
+.four_box {
+  display: flex;
+  width: $width;
+}
+.enterprise_box_1 {
+  display: $display_box_four;
+  width: $width;
+}
+.enterprise_box_1 picture img {
+  width: 100%;
+}
+.banner_para {
+  padding-top: $padding_tp_para;
+  padding-left: 0.5px;
+}
+.banner_para p {
+  margin: 4px 0 0 0;
+  font-size: 12px;
+  line-height: 1.71;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #000;
+  text-align: left;
+}
+.enterprise_sec_5 .container .details_of_appleCare {
+  padding-left: 41px;
+}
+h6 .triangle {
+  width: 1.5%;
+}
+.enterprise_sec_5 {
+  margin-bottom: 70px;
+  padding: 0px;
+}
+.enterprise_sec_5 .container h6 {
+  margin: 0 0 15px 0px;
+  font-family: $font-family_box_mac;
+}
+.enterprise_sec_5 .container ul {
+  list-style: none;
+}
+.enterprise_sec_5 .container ul li {
+  margin: 0 68px 20px 10px;
+  font-size: 18px;
+  font-weight: 300;
+  text-indent: -10px;
+}
+.enterprise_sec_5 .container ul li:before {
+  content: "-";
+  // position: absolute;
+  // left: 0;
+}
+.enterprise_sec_5 .container ul li a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.enterprise_sec_5 .container ul li a.know-more {
+  background-image: -webkit-gradient(linear, right top, left top, from(#9ed7dd), to(#2c7cc7));
+  background-image: linear-gradient(to left, #9ed7dd, #2c7cc7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.enterprise_sec_6 {
+  // margin-bottom: 100px;
+}
+.enterprise_sec_2 {
+  display: none;
+}
+.enterprise_sec_6 picture img {
+  width: 100%;
+}
+.enterprise_sec_6 .enterprise-bottom-banner {
+  display: block;
+}
+.enterprise_sec_2 {
+  padding: 80px 148px;
+  background-color: #f9f9f9;
+}
+.enterprise_sec_2_mobile {
+  padding: 50px 0px 50px 25px;
+  background-color: #f9f9f9;
+  display: none;
+}
+
+.enterprise_sec_2 .container .feature_box {
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enterprise_sec_2 .container .feature_box .enterprise_feature_1 {
+  flex-grow: 1;
+  max-width: 30%;
+}
+
+.feature_box .enterprise_feature_1 {
+  margin: 15px 30px 15px 0px;
+  background-color: white;
+}
+
+.enterprise_sec_2_mobile .feature_box_mobile .enterprise_feature_1_mobile {
+  background-color: white;
+  min-height: 370px;
+}
+
+.mr15 {
+  margin-right: 15px;
+  padding-right: 0px !important;
+}
+.pr0 {
+  padding-right: 0;
+}
+
+.feature_box .enterprise_feature_1 img {
+  width: 100%;
+}
+.feature_box_mobile .enterprise_feature_1_mobile img {
+  width: 100%;
+}
+.feature_box .enterprise_feature_1 h3 {
+  font-size: 19px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.feature_box_mobile .enterprise_feature_1_mobile h3 {
+  font-size: 19px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.feature_box .enterprise_feature_1 p {
+  padding: 21px 10px 10px 20px;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #282828;
+}
+
+.feature_box_mobile .enterprise_feature_1_mobile p {
+  padding: 21px 10px 10px 20px;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #282828;
+}
+
+.feature_box .enterprise_feature_1 a {
+  border: none;
+  outline: none;
+  padding: 10px 20px 20px;
+}
+
+.feature_box_mobile .enterprise_feature_1_mobile a {
+  border: none;
+  outline: none;
+  padding: 10px 20px 20px;
+}
+
+.heading-4 {
+  margin-bottom: 20px;
+}
+.pd_tp_bttm_bttn {
+  padding: $bttn_pd_tp_enterprise;
+}
+@supports (-webkit-touch-callout: none) {
+  .pd_tp_bttm_bttn a {
+    /* CSS specific to iOS devices */
+    -webkit-text-fill-color: unset;
+  }
+}
+.box_banner {
+  width: $width;
+  display: flex;
+  padding: 80px 0px;
+}
+.left {
+  width: $width_50;
+  text-align: $text-align;
+  padding-right: 40px;
+}
+.right {
+  width: $width_50;
+  text-align: $text-align_left;
+}
+.right h2 {
+  padding: 40px 0 0 0;
+  font-size: $h2_font_size;
+  font-weight: $h2_font-weight;
+  font-stretch: $h2_font-stretch;
+  font-style: $h2_font-style;
+  line-height: $h2_line-height;
+  letter-spacing: $h2_letter-spacing;
+  color: $h2_color;
+}
+.right h5 {
+  font-size: 19px;
+  font-weight: $h2_font-weight;
+  font-stretch: $h2_font-stretch;
+  font-style: $h2_font-style;
+  letter-spacing: $h2_letter-spacing;
+  color: $h2_color;
+  margin-top: $h5_margin-top;
+  margin-bottom: $h5_margin-bottom;
+  line-height: $h5_line-height;
+}
+
+@media (min-width: 1025px) {
+  section.effective-price-calculator {
+    margin-bottom: 0px;
+  }
+  section.effective-price-calculator .selection.rect {
+    margin-top: 30px;
+    padding: 0 40px;
+  }
+  section.effective-price-calculator .selection.image {
+    margin-top: 15px;
+    padding-left: 40px;
+  }
+}
+
+.right .text-left {
+  margin-top: 30px;
+}
+
+.modal-header {
+  padding: 4% 7%;
+}
+.modal-title {
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
+.modal-wrapper {
+  width: 400px;
+}
+
+.field-wrapper {
+  display: flex;
+  margin: 30px 10px;
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.field-wrapper-p p {
+  margin-bottom: 20px;
+  // opacity:0.4;
+  color: #000000;
+  font-weight: 300;
+  padding: 0 20px;
+}
+
+.field-wrapper.focused label {
+  transition: all 0.2s linear;
+  top: -20px;
+}
+
+label {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1em;
+  position: absolute;
+  top: 0px;
+  opacity: 0.3;
+  display: inline-block;
+  background: #fff;
+  margin: 8px 0px;
+  line-height: 1.4em;
+  padding: 0 10px;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+input[type="submit"] {
+  width: 30%;
+}
+.empty-box {
+  display: none;
+  margin-top: 150px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 0px;
+  // border: 1px solid #b5b5b5;
+}
+.hide {
+  display: none !important;
+}
+
+@media (max-width: 576px) {
+  .right h2 {
+    padding: 10px 0 0 0;
+    font-size: $h2_font_size;
+    font-weight: $h2_font-weight;
+    font-stretch: $h2_font-stretch;
+    font-style: $h2_font-style;
+    line-height: $h2_line-height;
+    letter-spacing: $h2_letter-spacing;
+    color: $h2_color;
+  }
+  .right h5 {
+    font-size: $h5_font_size;
+    font-weight: $h2_font-weight;
+    font-stretch: $h2_font-stretch;
+    font-style: $h2_font-style;
+    letter-spacing: $h2_letter-spacing;
+    color: $h2_color;
+    margin-top: 9px;
+    margin-bottom: 27px;
+    line-height: $h5_line-height;
+  }
+  section.effective-price-calculator .heading-container {
+    padding: 10px 20px;
+  }
+  section.effective-price-calculator .box {
+    padding: 20px 0 30px;
+  }
+  .left {
+    width: $width_50;
+    text-align: $text-align;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .enterprise_sec_5 .container .details_of_appleCare {
+    padding-left: 41px;
+    margin-bottom: 80px;
+  }
+  .banner_para_right {
+    display: none;
+  }
+
+  .enterprise_sec_3 {
+    padding: $enterprise_pd_top_bttm;
+  }
+
+  .enterprise_sec_6 .enterprise-bottom-banner-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #tns2 > .tns-item {
+    height: 650px;
+  }
+  h6 .triangle {
+    width: 2%;
+  }
+  .enterprise_sec_2 {
+    padding: 50px 25px;
+  }
+  h2.heading-2.hd_pd {
+    font-size: 24px;
+    letter-spacing: 0;
+    padding: 30px 25px 25px 25px;
+  }
+  h2.heading-2.hd_pd_2 {
+    font-size: 24px;
+    letter-spacing: 0;
+    padding: 0px 25px 0px 0px;
+  }
+  .enterprise_sec_2 .container .feature_box {
+    display: flex;
+    width: 100%;
+  }
+  .enterprise_sec_4 .container {
+    padding: 0;
+  }
+  .banner_para {
+    display: none;
+  }
+  .empty-box {
+    display: block;
+    margin-top: 150px;
+  }
+  .banner_para_right {
+    padding-right: 17px;
+  }
+  .banner_para_right p {
+    display: block;
+    margin: $margin_para;
+    font-size: 1rem;
+    line-height: $line-height_banner_para;
+    font-weight: $h2_font-weight;
+    font-stretch: $h2_font-stretch;
+    font-style: $h2_font-style;
+    letter-spacing: $h2_letter-spacing;
+    color: $h2_color;
+    text-align: $text-align_left;
+  }
+  .left {
+    display: block;
+  }
+  .box_banner {
+    display: block;
+    padding: 80px 0px 50px;
+  }
+  .box_banner .left img {
+    width: 100%;
+  }
+  .right {
+    padding-top: 20px;
+    display: block;
+  }
+  .right h2 {
+    font-size: 2.5rem;
+  }
+  .right h5 {
+    font-size: 14px;
+    color: 000000;
+  }
+  .four_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .four_box_mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .enterprise_sec_3 {
+    padding: 30px 0 20px 0;
+  }
+
+  .heading-4 {
+    margin-bottom: 10px;
+  }
+  .enterprise_sec_5 .container .details_of_appleCare {
+    padding: 21px 25px 12px 21px;
+    margin-bottom: 50px;
+  }
+  section.effective-price-calculator .selection.image {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .enterprise_sec_5 .container h6 {
+    margin: 0 0 15px -6px;
+    font-family: $font-family_box_mac;
+  }
+  .enterprise_sec_5 .container ul li {
+    margin: 8px 10px 8px 1px;
+    font-size: 11px;
+    font-weight: 300;
+    text-indent: -8px;
+  }
+  section.effective-price-calculator {
+    margin-bottom: 0px;
+  }
+
+  .enterprise_sec_6 .enterprise-bottom-banner {
+    display: none;
+  }
+
+  .enterprise_sec_6 .enterprise-bottom-banner-mobile {
+    display: block;
+  }
+
+  .enterprise_sec_6 {
+    margin-bottom: 0px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    padding: 10px;
+    width: 90%;
+    border-bottom: 1px solid #b5b5b5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+
+  input[type="submit"] {
+    width: 30%;
+  }
+
+  .modal-title {
+    padding: 0px 20px;
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+  .modal {
+    padding: 27% 0px;
+    // overflow: hidden;
+  }
+  .modal-body {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+  }
+  .modal-body .container {
+    padding-left: 0;
+  }
+}
+@media (max-width: 430px) {
+  .field-wrapper {
+    display: flex;
+    margin: 30px 10px;
+    position: relative;
+    outline: none;
+    width: 80%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+}
+@media (min-width: 1025px) {
+  section.effective-price-calculator .box {
+    padding: 40px 0 30px;
+  }
+}
+
+section.effective-price-calculator .selection.image .model .img img {
+  width: 70%;
+  margin-top: 13px;
+}
+
+.field-wrapper.submit {
+  .btn.btn-primary {
+    padding: 10px 0px;
+  }
+}
+
+#frm_enterprise_success {
+  width: 90%;
+}
+
+section.apple-premium-resellers {
+  margin: 40px 0;
+}
+
+@media (min-width: 1025px) {
+  section.apple-premium-resellers {
+    margin: 90px 0;
+  }
+}
+
+section.apple-premium-resellers .seller-list {
+  font-size: 0;
+}
+
+section.apple-premium-resellers .seller-list li {
+  display: inline-block;
+  width: 33.33%;
+  font-size: 0;
+  text-align: center;
+  margin-top: 20px;
+  border-left: solid 1px #ececec;
+}
+
+@media (max-width: 1024.98px) {
+  section.apple-premium-resellers .seller-list li:nth-child(3n + 1) {
+    border-left: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  section.apple-premium-resellers .seller-list li {
+    width: 25%;
+    margin-top: 40px;
+    border-left: solid 1px #ececec;
+  }
+  section.apple-premium-resellers .seller-list li:nth-child(4n + 1) {
+    width: 24%;
+    text-align: center;
+    border-left: none;
+  }
+  section.apple-premium-resellers .seller-list li:nth-child(4n + 4) {
+    width: 24%;
+    text-align: center;
+  }
+  section.apple-premium-resellers .seller-list li:nth-child(4n + 2),
+  section.apple-premium-resellers .seller-list li:nth-child(4n + 3) {
+    width: 24%;
+  }
+}
+
+section.apple-premium-resellers .seller-list li img {
+  max-width: 80%;
+  max-height: 200px;
+}
+
+.seller-list li {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.seller-list li .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.seller-list li:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.seller-list li:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+section.reason-section {
+  background: rgb(222, 228, 243);
+  background: linear-gradient(357deg, rgba(222, 228, 243, 0.5031016489093223) 0%, rgba(222, 228, 243, 0.9413038961003336) 100%);
+  .reason-header {
+    @include section-margin-top;
+    background-color: #fff;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    h2 {
+      color: #f44542;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+    }
+    h3 {
+      color: #000;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      @include media-max(md) {
+        font-size: 32px;
+        line-height: 56px;
+      }
+    }
+  }
+
+  .reasons {
+    padding-bottom: 10px;
+    .dex {
+      display: block;
+    }
+    .mob {
+      display: none;
+    }
+    @include media-max(md) {
+      .dex {
+        display: none;
+      }
+      .mob {
+        display: block;
+      }
+    }
+    .reason-one {
+      margin: 20px;
+      img {
+        border-radius: 20px;
+      }
+      .tile-rounded {
+        .tile-content {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          @include media-max(md) {
+            flex-direction: column;
+          }
+          .text-content {
+            width: 50%;
+            padding: 30px;
+            color: #fff;
+            h2 {
+              font-size: 32px;
+              line-height: 42px;
+              font-weight: 100;
+              letter-spacing: 0.0071em;
+              margin-top: 15px;
+            }
+            h3 {
+              font-size: 36px;
+              line-height: 42px;
+              font-weight: 700;
+              margin-top: 15px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 200;
+              margin-top: 15px;
+            }
+            a {
+              color: #2997ff;
+            }
+          }
+          .tile-picture {
+            text-align: center;
+            img {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+    .reason-group {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include media-max(md) {
+        flex-direction: column;
+      }
+      div {
+        margin: 10px;
+        img {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+  .reason-ten {
+    margin: 20px;
+    img {
+      border-radius: 20px;
+    }
+  }
+  .reason-eleven {
+    margin: 20px;
+    img {
+      border-radius: 20px;
+    }
+  }
+}
+
+section.quick-view-section {
+  padding-bottom: 10%;
+  .mac-product-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    @include media-max(md) {
+      flex-direction: column;
+    }
+    .mac-card {
+      flex: 1 1 50%;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .mac-img {
+        display: flex;
+        align-items: flex-end;
+        // height: 200px;
+        img {
+          // width: 300px;
+        }
+      }
+      .mac-content {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        min-height: 150px;
+        @include media-max(md) {
+          min-height: 50px;
+        }
+        .mac-heading {
+          h4 {
+            margin: 20px 0;
+            font-size: 24px;
+          }
+        }
+        .mac-intro {
+          p {
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+      }
+      .km-cta {
+        a {
+          border-radius: 30px;
+          border: 1px solid #999999;
+          color: #999999;
+          font-size: 18px;
+          padding: 10px 20px;
+          display: inline-block;
+          margin: 10px;
+        }
+        @include media-max(md) {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+section.hero-banner-cta {
+  .dex {
+    display: block;
+  }
+  .mob {
+    display: none;
+  }
+  @include media-max(md) {
+    .dex {
+      display: none;
+    }
+    .mob {
+      display: block;
+    }
+  }
+  .banner-wrapper {
+  }
+}
+
+section.enterprise_sec_one {
+  @include section-margin-btm;
+  @include section-margin-top;
+  .container {
+    // margin-top: 30px;
+    // margin-bottom: 30px;
+  }
+
+  .enterprise_sec_one_logos {
+    display: flex;
+    align-items: stretch;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    @include media-min(lg) {
+      margin: 60px 0;
+      margin-top: 40px;
+    }
+    @include media-max(xs) {
+      display: initial;
+    }
+  }
+  .enterprise_sec_one_logo {
+    display: flex;
+    width: 25%;
+    @include media-max(xs) {
+      width: 100%;
+      border-bottom: solid 1px #ececec;
+      padding-bottom: 20px;
+    }
+    // margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    // width: 33.33%;
+    flex: 0 0 50%;
+    &:not(:nth-child(2n)) {
+      border-right: solid 1px #ececec;
+      @include media-max(xs) {
+        border-right: none;
+      }
+    }
+    @include media-min(lg) {
+      flex: 0 0 25%;
+      padding: 0;
+      &:not(:last-child) {
+        border-right: solid 1px #ececec;
+      }
+    }
+    .img {
+      border-radius: 100%;
+      overflow: hidden;
+      width: 80px;
+      margin-bottom: 20px;
+      @include media-min(lg) {
+        width: 200px;
+        margin-bottom: 30px;
+      }
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+    .num {
+      font-weight: 500;
+      margin-bottom: 10px;
+      @include media-min(lg) {
+        font-size: 0.9rem;
+        font-weight: 300;
+      }
+    }
+    .link {
+      font-weight: 700;
+      word-break: break-all;
+      text-align: center;
+      font-size: 0.75rem;
+      @include media-min(lg) {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+/*----------------------------------CSS snippts for resourse section------------------*/
+.features-enterprise {
+  padding: 0% 0 8%;
+}
+
+section.product-details .mb_md_30 {
+  width: auto;
+}
+section.wrapper_mini {
+  margin-bottom: 75px;
+}
+section .mg_bttm {
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-weight: 200;
+  padding: 0 20%;
+  line-height: 1.2em;
+}
+section.row,
+.iphones_feature_section {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+section .mb_md_30 {
+  margin-bottom: 30px !important;
+}
+section figcaption {
+  color: #1d1d1f;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0.009em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+section .feature_col_8_wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+section .mg_bttm_fetures {
+  margin-top: 100px;
+}
+.icon-wrapper-enterprise {
+  font-size: 20px;
+  color: #06c;
+  letter-spacing: inherit;
+  font-weight: 300;
+}
+.icon-wrapper-enterprise:hover {
+  text-decoration: underline !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  section .feature_col_8_wrapper {
+    width: 100%;
+  }
+  section .col_50_mob {
+    width: 100%;
+  }
+  section .mg_bttm {
+    padding: 0 0%;
+  }
+}
+.table-details {
+  padding: 0 0 4%;
+}
+table {
+  width: 100%;
+}
+table tr td {
+  width: 25%;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+table tr td:last-child {
+  border-right: none;
+}
+table tr:hover {
+  background: #f4f4f4;
+}
+table tr td a {
+  color: #06c;
+}
+.column0 {
+  font-size: 16px;
+  font-weight: 600;
+  background: #f4f4f4;
+}
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+.table-details {
+  @include section-margin-top;
+  .heading-2 {
+    margin-bottom: 40px;
+  }
+}
+/*----------------------------------CSS snippts end------------------*/

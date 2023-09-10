@@ -1,0 +1,594 @@
+p,
+  h4,
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    word-break: break-word;
+  }
+
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #000000;
+    margin-bottom: -1px;
+    font-weight: bold;
+    border-bottom: 3px solid #000000 !important;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+  }
+
+  .nav-tabs .nav-link:hover {
+    border-color: transparent;
+  }
+
+  .nav-tabs .nav-link a:focus {
+    background: transparent !important;
+  }
+
+  .tabs-container .nav-tabs .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .trade-in-new-page-heading {
+    color: rgb(59, 71, 84);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 25px 15px;
+    padding-bottom: 15px;
+  }
+    .tabs-container{padding: 30px 0px;}
+  .help-heading {
+    color: rgb(59, 71, 84);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 30px 15px;
+    padding-bottom: 23px;
+  }
+    .accessories-tabs{padding: 15px 0px;}
+
+  .help-section h4 {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgb(59, 71, 84);
+    line-height: 1.4
+  }
+
+  .help-section p {
+    font-size: 17px;
+    text-align: center;
+  }
+.help-section {
+    margin-bottom: 25px !important;
+}
+
+  .casify_servify_sec {
+    width: 97%;
+    margin: 4% auto;
+  }
+
+  .ext_brdr {
+    border: 1px solid #dddddd;
+    padding: 25px 30px;
+    max-width: 45%;
+  }
+
+  .mgn_rt {
+    margin-right: 30px;
+  }
+
+  .text {
+    float: left;
+    width: 50%;
+  }
+
+  .text span {
+    font-size: 16px;
+    vertical-align: sub;
+    color: #333333;
+  }
+
+  .logo_tredin {
+    width: 50%;
+    float: left;
+    text-align: right;
+  }
+
+  .logo_tredin img {
+    width: 145px;
+  }
+
+ 
+
+  .ext_brdr {
+    border: 1px solid #dddddd;
+    padding: 25px 30px;
+    max-width: 45%;
+  }
+
+  .trade-main-txt {
+    font-size: 21px;
+    line-height: 1.5;
+  padding: 1px 70px;
+    margin-bottom: 15px;
+  }
+
+  .intro {
+    max-width: 1280px;
+    margin: 1em auto;
+  }
+
+  .center-text {
+    text-align: center !important;
+  }
+
+  .center-text {
+    max-width: 233px !important;
+  }
+
+  .bannericons {
+    padding: 15px;
+    max-width: 210px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .steps,
+  .how-does-work p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(59, 71, 84);
+    padding-top: 6px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border: transparent !important;
+  }
+
+  .trade-in-new-faq a:focus {
+    background-color: #ffffff !important;
+  }
+.follow-p{text-align: center !important;line-height: 1.4 !important;margin-bottom: 20px !important;}
+
+  .number {
+    position: absolute;
+    left: -15px;
+    top: 16px;
+    /*
+        width: 35px;
+        height: 35px;
+        border: 1px solid #2196f3;
+        font-size: 19px;
+        border-radius: 100px;
+        font-weight: 600;
+*/
+    line-height: 1.7;
+    background-color: #ffffff;
+  }
+
+  .numberIcon {
+    margin: 15px auto;
+  }
+
+  .numberIcon p {
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 10px;
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+    color: rgb(59, 71, 84);
+  }
+
+  .trade-in-new-faq a,
+  .trade-in-new-faq a:hover {
+    color: #000000;
+  }
+
+  .trade-in-new-faq .panel-heading {
+    padding: 0;
+    border: 0;
+  }
+
+  .trade-in-new-faq .panel-title>a,
+  .trade-in-new-faq .panel-title>a:active {
+          font-size: 16px;
+    font-weight: 600;
+   line-height: 1.4;
+    display: block;
+    padding: 15px;
+      color: rgb(59, 71, 84);
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+   
+
+  .trade-in-new-faq .panel-heading a:before {
+    font-family: icon-font;
+    content: "\e907";
+    float: right;
+    transition: all 0.5s;
+    font-size: 12px;
+  }
+
+  .trade-in-new-faq .panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .trade-in-new-faq .panel-body {
+        font-size: 15px;
+    line-height: 1.5;
+    padding-top: 3px;
+ color: rgb(59, 71, 84);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+  }
+
+  .trade-in-new-faq .list-faq {
+    list-style-type: lower-alpha;
+    padding: 5px 26px;
+  }
+
+  .trade-in-new-faq h5 {
+    color: rgb(59, 71, 84);
+    font-size: 30px;
+    font-weight: 700;
+    /* text-align: center; */
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding: 7px 15px;
+    padding-bottom: 25px;
+  }
+
+  .step-1 li {
+    display: inline-block;
+  }
+
+  .trade-in-new-faq {
+    font-family: "SF UI Display", sans-serif !important;
+      margin-bottom: 35px;
+  }
+
+
+  @media (max-width: 767.98px) {
+
+      .tandc{font-size: 13px !important;margin-top: 3px !important;}
+     
+    .numberIcon {
+    margin: 5px auto;
+}
+      .text span{font-size: 12px;}
+      .logo_tredin img {
+    width: 135px;
+}
+    .trade-main-txt {
+      padding: 15px;
+        font-size: 16px;
+        margin-bottom: 12px !important;
+    }
+      .how-does-work h4{padding-bottom: 12px;text-align: center;}
+
+    .trade-in-new-faq h5 {
+      font-size: 18px;
+        text-align: center;
+    }
+
+    .trade-in-new-faq .panel-title>a,
+    .trade-in-new-faq .panel-title>a:active {
+      font-size: 15px;
+    }
+      .trade-in-new-page-heading{padding-bottom: 2px;font-size: 20px;}
+
+    .trade-in-new .panel-title>a {
+      font-size: 12px;
+    }
+      .tab-icon-img{max-width: 45px !important;padding: 1px !important;}
+
+    .trade-in-new-faq .panel-body {
+      padding: 5px 15px;
+      font-size: 15px;
+    }
+
+      .steps, .how-does-work p{font-size: 14px;color: rgb(59, 71, 84);}
+      .steps h4, .how-does-work h4{font-size: 16px;margin-bottom: 0;color: rgb(59, 71, 84);}
+      .help-heading{font-size: 20px;}
+      .pocket-three-features .help-heading{font-size: 22px !important;}
+  }
+    .step-icon-bg{
+        background-color: #edf0f4;
+    border-radius: 76px;
+    max-width: 75px;}
+    .steps .media-body h4{margin-bottom: 5px;color: rgb(59, 71, 84);padding-top: 10px;}
+    .steps .media-body{padding-left: 20px;}
+    .how-does-work h4{color: rgb(59, 71, 84);text-align: center;font-size: 27px;font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+.trade-in-box, .pocket-three-features{padding-bottom: 50px;}
+.trade-in-new-faq{padding-bottom: 5px;}
+.pocket-three-features, .trade-in-new-faq{padding-top: 40px;}
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    section.trade-in-box h4 {
+      font-size: 17px;
+    }
+
+    .trade-in-new .panel-title>a {
+      font-size: 12px;
+    }
+    
+
+    .panel-title>a,
+    .panel-title>a:active {
+      font-size: 13px;
+    }
+
+    .trade-in-new-faq h5 {
+      font-size: 25px;
+      line-height: 24px;
+    }
+
+    .panel-body {
+      padding: 5px 15px;
+    }
+  }
+
+  .img img {
+    margin: 0 auto;
+    display: table;
+  }
+
+  @media (max-width:767px) {
+    .tab-c .img-fluid {max-width: 70%;}
+    
+      .how-does-work h4{font-size: 20px;}
+    .tns-controls {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .casify_servify_sec {
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .mgn_rt {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .ext_brdr {
+      max-width: 100%;
+      margin-bottom: 4%;
+    }
+  }
+
+  .how-does-work {
+    padding: 15px 28px;
+  }
+    .tab-icon-img{display: block;
+    margin: 0 auto;
+    max-width: 120px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    border-radius: 67px;}
+/*    .tab-icon-img:hover{border-color: #0056b3;}*/
+    .trade-in-box, .pocket-three-features, .accessories-tabs{border-bottom: 1px solid #e9d9d9;}
+.accessories-tabs, .trade-in-new-faq{border-top: 1px solid #e9d9d9;}
+@media (min-width: 1025px){
+section.buy-offline .container {
+    margin-bottom: 60px !important;
+    }}
+.trade-in-new-faq .panel-body a{color: #519ace !important;font-weight: bold;}
+/*.p-3{max-width: 85%;margin: 0 auto;}*/
+  .tandc {
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    /* font-family: Arial, sans-serif; */
+    color: rgb(0, 0, 0);
+}
+      .more-de {
+    padding: 2px 0px;
+}
+      .tandc a {
+    color: #1976d2;
+    text-decoration: underline !important;
+    /* font-family: Arial, sans-serif; */
+      }
+.nav-tabs .nav-link.active .tab-icon-img, .tab-icon-img:hover, .tab-icon-img:focus{    
+    width: 234px;
+/*    margin-bottom: 30px;*/
+   border-radius: 50%;
+    cursor: pointer;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+    -webkit-animation: pulse1 2s infinite;
+    animation: pulse1 2s infinite;}
+
+section.toc .terms .term {
+    font-size: 0.9rem;
+/*    font-weight: 400;*/
+    margin-bottom: 15px;
+    line-height: 1rem;
+    position: relative;
+}
+.heading-2{font-family: "SF UI Display", sans-serif !important;}
+section.toc .terms .term:before {
+    border: solid 4px transparent;
+    border-left-color: black;
+    border-right-width: 0;
+    border-left-width: 7px;
+    content: " ";
+    width: 0;
+    height: 0;
+    display: inline-block;
+    margin-right: 2px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: absolute;
+    top: 3px;
+}
+section.toc .read-more {
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+}
+section.toc .read-more {
+    font-weight: 800;
+    cursor: pointer;
+/*    display: inline-block;*/
+}
+section.toc .read-more:not(.more) .more {
+    display: none;
+}
+
+section.toc .terms .term .desc p:before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+
+section.toc .terms .term .desc {
+/*    font-weight: 300;*/
+    line-height: 1rem;
+    margin-top: 5px;
+    display: block;
+    font-size: 0.8rem;
+}
+    section.toc .terms .term span.title {
+    cursor: default;
+        font-weight: 400;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+    line-height: 1.1;
+        font-family: "SF UI Display", sans-serif !important;
+}
+section.toc .terms .term .desc p {
+    position: relative;
+    padding-left: 13px;
+    font-size: 0.9rem !important;;
+font-weight: 300 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 8px !important;;
+}
+section.bg-light {
+      font-family: "SF UI Display", sans-serif;
+    }
+
+section.bg-light {
+    padding: 80px 0;
+    }
+section.toc .terms {
+    margin-top: 30px;
+}
+section.toc .terms .term {
+    font-size: 1.1rem;
+}
+    section.toc .terms .term:before {
+    border: solid 8px transparent;
+    border-left-color: black;
+    border-left-width: 12px;
+    margin-right: 0;
+    top: 2px;
+}
+    section.toc .terms .term span.title {
+    padding-left: 25px;
+}
+    section.toc .terms .term .desc {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+    section.toc .terms .term .desc p {
+    padding-left: 25px;
+    margin-bottom: 10px !important;
+        font-family: "SF UI Display", sans-serif !important;
+}
+section.toc .read-more {
+    margin-top: 30px;
+}
+
+section.toc .terms .term a {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0056b3;
+}
+
+@media (max-width: 767.98px) {
+ 
+section.toc .terms .term {
+    font-size: 13px;
+}
+
+    
+section.toc .terms .term:before {
+    border: solid 4px transparent;
+    border-left-color: black;
+    border-left-width: 8px;
+    margin-right: 0;
+    top: 2px;
+}}
+section.tandc {
+    padding: 4% 0 !important;
+    background: #e2e2e2;
+}
+section.tandc .offer-tandc h5 {
+    color: #231f20;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+section.tandc .offer-tandc h4 {
+    color: #231f20;
+    font-size: 17px;
+    font-weight: 600;
+        margin-bottom: 0;
+    /* line-height: 20px; */
+    margin-top: 20px;
+}
+
+.triangle{padding-top: 0 !important;padding-bottom: 0 !important;}
+section.tandc .offer-tandc ul {
+    list-style: disc;
+    padding: 20px 26px;
+        padding-top: 5px;
+}
+section.tandc .offer-tandc ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}

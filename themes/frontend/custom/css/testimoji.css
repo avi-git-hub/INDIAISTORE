@@ -1,0 +1,89 @@
+.gradient-text {
+  background-image: -webkit-gradient(linear, right top, left top, from(#9ed7dd), to(#2c7cc7));
+  background-image: linear-gradient(to left, #9ed7dd, #2c7cc7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .gradient-text {
+    background: transparent;
+    color: #2c7cc7;
+  }
+}
+
+#testimoji {
+  overflow-x: hidden;
+}
+
+section.test-imaoji {
+  width: 100%;
+  background: #f5f5f7;
+  padding-bottom: 50px;
+}
+
+section.test-imaoji .banner {
+  width: 100%;
+}
+
+section.test-imaoji .banner img {
+  width: 100%;
+}
+
+section.test-imaoji .dex {
+  display: inline-block;
+}
+
+@media (max-width: 767.98px) {
+  section.test-imaoji .dex {
+    display: none;
+  }
+}
+
+section.test-imaoji .mob {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  section.test-imaoji .mob {
+    display: block;
+  }
+}
+
+.know-more-cta {
+  background: #000;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.know-more-cta a {
+  border-radius: 30px;
+  border: 1px solid #999999;
+  color: #999999;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0 10px 10px;
+}
+
+.switch_to_know_more {
+  background: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.switch_to_know_more h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.switch_to_know_more a {
+  border-radius: 6px;
+  border: 1px solid #000;
+  font-size: 24px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0 10px 10px;
+}
+/*# sourceMappingURL=testimoji.css.map */

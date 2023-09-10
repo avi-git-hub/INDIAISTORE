@@ -1,0 +1,484 @@
+$display: flex;
+$background-color: #181818;
+$padding: 13% 8% 39% 8%;
+$width_heading_bank: 90%;
+$font_size_box_sub_hd: 15px;
+$font_weight_box_sub_hd: 100;
+$padding_sub_hd: 10px 0;
+$letter-spacing_sub_hd: 2px;
+$width_img: auto;
+$padding_tp_bttm: 12px 0px;
+$width_50: 50%;
+$text-align: right;
+$padding_loan_offers: 3px 0;
+$width_100: 70%;
+$padding_mobile: 7px 0;
+$font-size_mobile: 9px;
+$padding_zest_mobile: 10px 0px;
+$font-size_trade_in: 12px;
+$color: #ffffff;
+
+section.product-details .common_logo img {
+  width: 60%;
+}
+.common_logo {
+  margin-bottom: 10px;
+}
+.trade_in_hd {
+  margin-bottom: 10px;
+}
+.trade_in_p {
+  padding: 5px 0;
+}
+.trade_in {
+  border: solid 1px #323232;
+  padding: 20px;
+  background: #000000;
+  @media (max-width: 750px) {
+    margin-bottom: 25px;
+  }
+}
+.trade_in ul li {
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 0px;
+  list-style: disc;
+  margin-left: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.bank_loan {
+  background: $background-color;
+  padding: 13% 10% 52%;
+  // min-height: 350px;
+  @media (max-width: 768px) {
+    padding: 13% 10% 16%;
+    // min-height: auto;
+  }
+}
+.trade_in_button {
+  font-size: 16px;
+}
+.heading_arrow {
+  display: $display;
+}
+.heading_bank {
+  width: $width_heading_bank;
+}
+.product-details .hdfc_offer img {
+  width: auto;
+  padding: $padding_tp_bttm;
+  @media (max-width: 750px) {
+    width: $width_100;
+  }
+  @media (max-width: 420px) {
+    width: $width_100;
+  }
+}
+
+.product-details {
+  .icici_offer,
+  .kotak_offer {
+    img {
+      width: 60%;
+      padding: $padding_tp_bttm;
+      @media (max-width: 750px) {
+        width: $width_100;
+      }
+      @media (max-width: 420px) {
+        width: $width_100;
+      }
+    }
+  }
+
+  .sbi_offer {
+    img {
+      width: 67%;
+      padding: $padding_tp_bttm;
+      @media (max-width: 750px) {
+        width: $width_100;
+      }
+      @media (max-width: 420px) {
+        width: 77;
+      }
+    }
+  }
+
+  .onlyOffer .hdfc_offer img {
+    width: 60%;
+  }
+  @media (max-width: 750px) {
+    .onlyOffer .hdfc_offer img {
+      width: 70%;
+    }
+  }
+  @media (max-width: 420px) {
+    .onlyOffer .hdfc_offer img {
+      width: 70%;
+    }
+  }
+}
+
+// .product-details .icici_offer img {
+//   width: 60%;
+//   padding: $padding_tp_bttm;
+//   @media (max-width: 750px) {
+//     width: $width_100;
+//   }
+//   @media (max-width: 420px) {
+//     width: $width_100;
+//   }
+// }
+
+// .product-details .kotak_offer img {
+//   width: 60%;
+//   padding: $padding_tp_bttm;
+//   @media (max-width: 750px) {
+//     width: $width_100;
+//   }
+//   @media (max-width: 420px) {
+//     width: $width_100;
+//   }
+// }
+
+// .product-details .sbi_offer img {
+//   width: 55%;
+//   padding: $padding_tp_bttm;
+//   @media (max-width: 750px) {
+//     width: $width_100;
+//   }
+//   @media (max-width: 420px) {
+//     width: 68%;
+//   }
+// }
+
+.product-details .zest {
+  width: $width_50;
+  text-align: $text-align;
+}
+.product-details .zest img {
+  width: auto;
+  padding: $padding_tp_bttm;
+  @media (max-width: 750px) {
+    width: $width_100;
+    padding: $padding_zest_mobile;
+  }
+  @media (max-width: 420px) {
+    width: $width_100;
+  }
+}
+.offer_list h5 {
+  font-size: $font_size_box_sub_hd;
+  font-weight: $font_weight_box_sub_hd;
+  padding: $padding_sub_hd;
+  letter-spacing: $letter-spacing_sub_hd;
+  @media (max-width: 750px) {
+    padding: $padding_mobile;
+    font-size: $font-size_mobile;
+  }
+}
+.logos_offers {
+  display: $display;
+  padding: $padding_loan_offers;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+#modal_bank_offers .modal-dialog,
+#modal_bank_offers_loans .modal-dialog {
+  max-width: 50%;
+  @media (max-width: 767px) {
+    max-width: 90%;
+  }
+  margin: 1.75rem auto;
+}
+
+#modal_buy_back_offer .modal-dialog {
+  margin: 1.75rem auto;
+}
+
+#modal_bank_offers .nav-tabs {
+  margin: 15px 0;
+}
+
+#modal_bank_offers li {
+  margin-bottom: -6px;
+  padding: 4px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 4px;
+}
+.nav-tabs li a:hover {
+  background-color: #dddddd;
+}
+
+#modal_bank_offers li a {
+  color: #555555;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#modal_bank_offers a.active {
+  border-bottom: 3px solid #47b0bb;
+  color: #47b0bb;
+}
+#modal_bank_offers_loans a.active {
+  border-bottom: 3px solid #47b0bb;
+  color: #47b0bb;
+  padding-bottom: 8px;
+}
+
+#modal_bank_offers .table.table-bordered,
+#modal_buy_back_offer .table.table-bordered {
+  border-collapse: separate;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 0;
+  border: none;
+}
+
+#modal_bank_offers thead,
+#modal_buy_back_offer thead {
+  background-color: #47b0bb;
+  border-color: #47b0bb;
+  color: #ffffff;
+}
+
+#modal_bank_offers .table.table-bordered th,
+#modal_buy_back_offer .table.table-bordered th {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+#modal_bank_offers .table.table-bordered td,
+#modal_buy_back_offer .table.table-bordered td {
+  border-top: none;
+  border-color: rgb(224, 224, 224);
+  color: #000;
+  font-family: "SFProText-Regular", sans-serif;
+  font-size: 14px;
+}
+
+#modal_bank_offers .table.table-bordered th,
+#modal_buy_back_offer .table.table-bordered th,
+#modal_bank_offers .table.table-bordered td,
+#modal_buy_back_offer .table.table-bordered td {
+  padding: 15px 20px;
+  vertical-align: middle;
+}
+
+#modal_bank_offers .table.table-bordered td span,
+#modal_buy_back_offer .table.table-bordered td span {
+  color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+  font-weight: 600;
+}
+
+#modal_bank_offers .table.table-bordered td:first-child,
+#modal_buy_back_offer.table.table-bordered td:first-child {
+  width: 35%;
+  font-size: 14px;
+  border-right: none;
+}
+
+#modal_bank_offers .table.table-bordered td:last-child,
+#modal_buy_back_offer .table.table-bordered td:last-child {
+  width: 65%;
+}
+
+#modal_bank_offers .table.table-bordered tr:last-child td:first-child,
+#modal_buy_back_offer .table.table-bordered tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+#modal_bank_offers .table.table-bordered tr:last-child td:last-child,
+#modal_buy_back_offer .table.table-bordered tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+#modal_bank_offers_loans .modal-dialog {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#modal_bank_offers_loans .modal-body {
+  padding: 32px 32px;
+}
+
+#modal_bank_offers_loans .nav-tabs {
+  padding: 10px 0 0;
+}
+
+#modal_bank_offers_loans li {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#modal_bank_offers_loans li > a {
+  color: #555555;
+  border: none;
+  letter-spacing: 1px;
+}
+
+#modal_bank_offers_loans .table.table-bordered {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 0;
+  border-collapse: separate;
+  border: none;
+}
+
+#modal_bank_offers_loans thead {
+  background-color: #47b0bb;
+  border-color: #47b0bb;
+  color: #ffffff;
+}
+
+#modal_bank_offers_loans .table.table-bordered th {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+}
+
+#modal_bank_offers_loans .table.table-bordered td {
+  border-top: none;
+  border-color: rgb(224, 224, 224);
+  color: #000;
+  font-family: "SFProText-Regular", sans-serif;
+}
+
+#modal_bank_offers_loans .table.table-bordered th,
+#modal_bank_offers_loans .table.table-bordered td {
+  padding: 15px 20px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+#modal_bank_offers_loans .table.table-bordered td span {
+  color: #47b0bb;
+  font-family: "SFProText-Semibold", sans-serif;
+  font-weight: 600;
+}
+
+#modal_bank_offers_loans .table.table-bordered td:first-child {
+  width: 35%;
+  border-right: none;
+}
+
+#modal_bank_offers_loans .table.table-bordered td:last-child {
+  width: 65%;
+}
+
+#modal_bank_offers_loans .table.table-bordered tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+#modal_bank_offers_loans .table.table-bordered tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+#modal_bank_offers .table.table-bordered td {
+  border-top: none;
+  border-color: #e0e0e0;
+  color: #000;
+  font-family: "SFProText-Regular", sans-serif;
+}
+#modal_bank_offers .table.table-bordered th,
+#modal_bank_offers .table.table-bordered td {
+  padding: 15px 20px;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.table-bordered tbody tr td {
+  border: 1px solid #ddd;
+}
+#modal_bank_offers .tab-content {
+  padding: 30px 20px;
+}
+
+#modal_bank_offers .nav-tabs {
+  margin: 0 20px;
+}
+
+#modal_bank_offers_loans .tab-content {
+  padding: 30px 20px;
+}
+
+#modal_bank_offers_loans .nav-tabs {
+  margin: 0 20px;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav-tabs li a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .modal-dialog {
+    max-width: 94%;
+    margin: 0 auto;
+  }
+  #modal_bank_offers_loans .modal-dialog {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -38%);
+    width: 100%;
+  }
+  #modal_bank_offers_loans .tab-content {
+    padding: 15px 0px;
+  }
+  #modal_bank_offers_loans .table.table-bordered td {
+    font-size: 12px;
+  }
+  #modal_bank_offers_loans .modal-body {
+    padding: 15px 15px;
+  }
+  #modal_bank_offers_loans .table.table-bordered td {
+    line-height: 20px;
+  }
+  #modal_bank_offers_loans .nav-tabs {
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 600px) {
+  .nav > li {
+    width: 100%;
+  }
+}
+
+.product-details .buyBack .icici_offer img {
+  padding-bottom: 0px !important;
+}.product-details .buyBack .mg-tp {
+  padding-top: 12px !important;
+}

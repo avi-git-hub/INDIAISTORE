@@ -1,0 +1,24 @@
+{
+  "name": "istore3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel themes/frontend/custom/js -d themes/frontend/custom/_js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rajdeepr23@bitbucket.org/isobarindiadevelopers/istore3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/isobarindiadevelopers/istore3/issues"
+  },
+  "homepage": "https://bitbucket.org/isobarindiadevelopers/istore3#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.bsoip-banner {
+  background-color: #000;
+  padding: 4rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bsoip-banner .bnr-logo {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.bsoip-banner .banner-iphone {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+.banner-btn {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.banner-btn a {
+  font-size: 18px;
+  color: #bbbbc1;
+  border: 1px solid #bbbbc1;
+  border-radius: 30px;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.banner-btn a:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.mainCNT {
+  padding: 4rem 0;
+  width: 100%;
+}
+.f-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.mainCNT p {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.camera-sec {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.camera-back {
+  text-align: center;
+  position: relative;
+}
+
+.camera-back img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.iPhone-dtls {
+  background-color: #000000;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bdr-box {
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.bdr-box-2 {
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.iPhone-name {
+  text-align: left;
+}
+
+.iPhone-name h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.iPhone-name h5 {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+.more-btn a {
+  font-size: 18px;
+  color: #bbbbc1;
+  border: 1px solid #bbbbc1;
+  border-radius: 30px;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.more-btn a:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.video-1 {
+  margin: 3rem 0;
+  width: 100%;
+  float: left;
+}
+
+.video-sec {
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.video-sec img {
+  border-radius: 20px;
+}
+
+.video-grid {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.vg-card {
+  background-color: #000;
+  padding: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.vg-card h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.vg-card h2 span {
+  font-size: 1.1rem;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+}
+
+.vg-video {
+}
+.vg-video img {
+  border-radius: 20px;
+}
+
+.ftr {
+  margin-top: 20px;
+}
+.ftr p {
+  color: #6e6e73;
+  font-size: 16px;
+  text-align: left;
+}
+
+.p_0 {
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .banner-btn {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .banner-btn a {
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .f-title {
+    font-size: 30px;
+  }
+
+  .mainCNT p {
+    font-size: 1.3rem;
+    margin: 20px;
+  }
+
+  .camera-back {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .vg-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .d-none-m {
+    display: none;
+  }
+  .vg-card h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 30px;
+  }
+  .iPhone-dtls {
+    border-radius: 20px !important;
+    flex-direction: column;
+  }
+
+  .iPhone-name {
+    text-align: center;
+  }
+  .iPhone-name h5 {
+    margin-top: 10px;
+  }
+
+  .more-btn {
+    margin-top: 30px;
+  }
+}

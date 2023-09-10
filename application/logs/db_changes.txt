@@ -1,0 +1,125 @@
+[2021-03-07 4:54:48]
+-- import "cities" table from the beta database.
+
+[2021-03-08 3:35:12]
+-- import "product_features" table from the beta database.
+
+[2021-03-09 4:38:42]
+-- import "product_pdp_image_sets" table from the beta database.
+-- import "product_pdp_images" table from the beta database.
+-- remove "produt_variant_images" table from the local database.
+
+[2021-03-10 7:43:24]
+-- import "routes" table from the beta database.
+-- alter "products" table in the local database.
+  ALTER TABLE `products`
+    CHANGE COLUMN `prod_terms_and_cond` `prod_terms_and_cond` TEXT NOT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_is_new_status`;
+  ALTER TABLE `products`
+    CHANGE COLUMN `prod_vid_url` `prod_vid_id` VARCHAR(100) NOT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_hero_desk_img`;
+  ALTER TABLE `products`
+    ADD COLUMN `prod_feature_tiles` TEXT NOT NULL AFTER `prod_hero_desk_img`;
+  ALTER TABLE `products`
+    ADD COLUMN `prod_banner_suggested_products` VARCHAR(100) NOT NULL AFTER `prod_vid_thumbnail`;
+	ALTER TABLE `products`
+    ADD COLUMN `prod_banner_cross_selling_products` VARCHAR(100) NOT NULL AFTER `prod_banner_suggested_products`;
+	ALTER TABLE `products`
+    CHANGE COLUMN `prod_html_id` `prod_html_id` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_banner_cross_selling_products`;
+
+[2021-03-11 01:43:00]
+-- alter "products" table in the local database.
+  ALTER TABLE `products`
+    ADD `prod_compare_with` VARCHAR(100) NOT NULL AFTER `prod_vid_thumbnail`;
+
+[2021-03-13 04:34:45]
+-- alter "products" table in the local database.
+  ALTER TABLE `products`
+    DROP `prod_banner_suggested_products`, DROP `prod_banner_cross_selling_products`;
+  ALTER TABLE `products`
+    DROP `prod_banner_suggested_products`, DROP `prod_banner_cross_selling_products`;
+
+[2021-03-15 11:00:00]
+-- alter "products variants" table in the local database.
+  ALTER TABLE `product_variants`
+	  ADD COLUMN `prod_mrp` MEDIUMINT(8) UNSIGNED NOT NULL DEFAULT '0' AFTER `prod_screen_size`,
+	  ADD COLUMN `prod_effective_price` MEDIUMINT(8) UNSIGNED NOT NULL DEFAULT '0' AFTER `prod_mrp`,
+	  ADD COLUMN `prod_exchange_effective_price` MEDIUMINT(8) UNSIGNED NOT NULL DEFAULT '0' AFTER `prod_effective_price`;
+
+[2021-03-16 03:21:00]
+-- alter "categories" table in the local database.
+-- alter "products" table in the local database.
+  ALTER TABLE `categories`
+    ADD COLUMN `cat_trending_products` VARCHAR(50) NULL DEFAULT NULL AFTER `cat_thumbnail`;
+  ALTER TABLE `products`
+    CHANGE `prod_highlighted_price` `prod_card_bg_color` VARCHAR(255) NOT NULL;
+
+[2021-03-17 01:57:00]
+-- alter "products" table in the local database.
+  ALTER TABLE `products`
+    CHANGE COLUMN `prod_compare_with` `prod_compare_with` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_vid_thumbnail`;
+
+[2021-03-17 05:41:00]
+-- alter "products" table in the local database.
+  ALTER TABLE `products`
+    CHANGE COLUMN `prod_terms_and_cond` `prod_terms_and_cond` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_is_new_status`,
+    CHANGE COLUMN `prod_hero_title` `prod_hero_title` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_terms_and_cond`,
+    CHANGE COLUMN `prod_hero_desc` `prod_hero_desc` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_hero_title`,
+    CHANGE COLUMN `prod_hero_mob_img` `prod_hero_mob_img` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_hero_desc`,
+    CHANGE COLUMN `prod_hero_desk_img` `prod_hero_desk_img` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_hero_mob_img`,
+    CHANGE COLUMN `prod_feature_tiles` `prod_feature_tiles` TEXT NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_hero_desk_img`,
+    CHANGE COLUMN `prod_vid_id` `prod_vid_id` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_feature_tiles`;
+
+[2021-03-18 11:12:13]
+-- alter "banner_positions" table in the local database.
+  ALTER TABLE `banner_positions`
+	  CHANGE COLUMN `prod_id` `prod_id` SMALLINT(5) UNSIGNED NULL AFTER `cat_id`;
+
+[2021-03-19 23:45:00]
+-- import "nav_sections" table from the beta database.
+-- import "nav_items" table from the beta database.
+-- import "routes" table from the beta database.
+
+[2021-03-23 11:10:00]
+-- alter "product_pdp_image_sets" table in the local database.
+  ALTER TABLE `product_pdp_image_sets`
+	  ADD COLUMN `pdp_set_vid_id` VARCHAR(50) NULL DEFAULT NULL AFTER `pdp_set_slug`;
+-- alter "product_features" table in the local database.
+  ALTER TABLE `product_features`
+    CHANGE COLUMN `prod_color` `prod_color` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_id`,
+    CHANGE COLUMN `prod_storage_space` `prod_storage_space` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_color`,
+    CHANGE COLUMN `prod_screen_size` `prod_screen_size` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_storage_space`,
+    ADD COLUMN `prod_processor` VARCHAR(100) NULL DEFAULT NULL AFTER `prod_screen_size`,
+    CHANGE COLUMN `prod_used_for` `prod_used_for` VARCHAR(100) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci' AFTER `prod_camera`;
+-- alter "product_variants" table in the local database.
+  ALTER TABLE `product_variants`
+    ADD COLUMN `prod_processor` VARCHAR(100) NULL DEFAULT NULL AFTER `prod_screen_size`;
+
+[2021-03-24 12:00:00]
+-- alter "products" table in the local database.
+  ALTER TABLE `products`  ADD `prod_tags` VARCHAR(255) NULL  AFTER `prod_html_classes`;
+-- alter "banners" table in the local database.
+  ALTER TABLE `banners` CHANGE `target_user` `target_user` ENUM('all','android','ios','dex_all','dex_win','dex_mac') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL;
+
+[2021-03-25 06:55:00]
+-- import "emi_hsbc" table from the beta database.
+
+
+[2021-04-09]
+INSERT INTO `routes` (`id`, `name`, `slug`, `controller`, `status`, `page_title`, `page_meta_keywords`, `page_meta_description`, `created_at`, `created_by`, `updated_at`, `updated_by`) VALUES ('50', 'error_404', 'error-404', 'site/error/error_404', '1', 'Page not found', 'a, b, c', 'Page not found', '2021-04-09 11:31:02', '1', '2021-04-09 11:31:02', NULL);
+
+[2021-08-19]
+ALTER TABLE `banners`  ADD `regions` VARCHAR(1000) NULL  AFTER `target_user`;
+ALTER TABLE `banners` ADD FULLTEXT(`regions`);
+
+[2021-08-19]
+ALTER TABLE `banners` ADD `video_url` VARCHAR(1000) NOT NULL AFTER `desktop_image`;
+
+[2021-10-22]
+ALTER TABLE `products` ADD `prod_exchange_text` TEXT NOT NULL AFTER `prod_tags`;
+
+UPDATE `products` SET `prod_exchange_text` = '<span>(After cashback + Exchange bonus)</span>';
+UPDATE `products` SET `prod_exchange_text` = '<span>(After cashback + Exchange bonus)<br>(Calculated on exchange value of iPhone XR 64 GB in good condition)</span>' WHERE `prod_slug` IN ('iphone-12', 'iphone-12-mini', 'iphone-13', 'iphone-13-mini', 'iphone-13-pro', 'iphone-13-pro-max');
+UPDATE `products` SET `prod_exchange_text` = '<span>(After cashback + Exchange bonus)<br>(Calculated on exchange value of Apple Watch Series 4, GPS, 40MM model in good condition with accessories)' WHERE `prod_slug` = 'watch-series-7';
+UPDATE `products` SET `prod_exchange_text` = '<span>(After cashback + Exchange bonus)<br>(Calculated on exchange value of iPhone 7 128GB in good condition)</span>' WHERE `prod_slug` = 'iphone-11';
+UPDATE `products` SET `prod_exchange_text` = '<span>(Calculated on exchange value of iPhone 7 128GB in good condition + Exchange bonus)</span>' WHERE `prod_slug` = 'iphone-se';
+
+

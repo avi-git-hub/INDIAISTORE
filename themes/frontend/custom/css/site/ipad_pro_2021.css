@@ -1,0 +1,59 @@
+.banner_100 {
+  width: 100%;
+}
+
+.comman_banner img {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+.tncdetails {
+  padding: 50px 15px;
+}
+
+.tncparts .headText h3 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+.tncparts .detailsText p {
+  font-size: 14px;
+  color: #515154;
+  line-height: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.tncparts .detailsText p a {
+  font-size: 14px;
+  color: #000;
+}
+
+.disclaimer {
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.tncparts {
+  margin-bottom: 20px;
+}
+
+.headText {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+/*# sourceMappingURL=ipad_pro_2021.css.map */

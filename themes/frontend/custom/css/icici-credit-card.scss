@@ -1,0 +1,180 @@
+@import "mixins";
+
+#icici-credit-card-offer {
+  overflow-x: hidden;
+}
+
+section.icici-credit-card-box {
+  background: #ffffff;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  h2 {
+    color: #231f20;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 20px;
+    @include media-max(sm) {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+  h4 {
+    color: #231f20;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    @include media-max(sm) {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+}
+section.hero-banner-cta {
+  background: #ffffff;
+
+  text-align: center !important;
+  .banner-wrapper {
+    img {
+      max-width: 60%;
+      height: 60vh;
+      margin-bottom: 30px;
+      @include media-max(sm) {
+        margin-bottom: 40px;
+        height: auto;
+        max-width: 100%;
+      }
+    }
+  }
+  .icici-logo-heading {
+    margin-bottom: 100px;
+    @include media-max(sm) {
+      margin-bottom: 60px;
+    }
+    h4 {
+      color: #231f20;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 46px;
+      @include media-max(sm) {
+        font-size: 30px;
+        margin: 0 auto 35px;
+      }
+    }
+    .logo-icici {
+      img {
+        max-width: 100%;
+        @include media-max(sm) {
+          max-width: 75%;
+        }
+      }
+    }
+  }
+}
+.dex {
+  @include media-max(sm) {
+    display: none;
+  }
+}
+.mob {
+  display: none;
+  @include media-max(sm) {
+    display: block;
+  }
+}
+
+section.easy-install-program {
+  padding: 4% 0;
+  padding-bottom: 0;
+  background: #fff;
+
+  .container {
+    @include media-max(sm) {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  h4 {
+    // color: #000000;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+  }
+  .easy-heading {
+    margin-bottom: 30px;
+  }
+  .banner-wrapper {
+    margin-bottom: 50px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .icici-offers-iphones {
+    background-color: #000;
+    margin-top: 105px;
+    h4.heading-2 {
+      color: #fff;
+    }
+    table {
+      width: 100%;
+      margin-top: 80px;
+      @include media-max(sm) {
+        margin-top: 50px;
+        display: block;
+        overflow-x: auto;
+      }
+      tr {
+        th {
+          border: 1px solid #ffffff;
+          padding: 10px;
+          text-align: center;
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 18px;
+          width: 10%;
+          @include media-max(md) {
+            font-size: 12px;
+          }
+        }
+        td {
+          border: 1px solid #ffffff;
+          padding: 10px;
+          text-align: left;
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 18px;
+          width: 10%;
+          @include media-max(md) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+section.tandc {
+  padding: 4% 0;
+  background: #e2e2e2;
+  .offer-tandc {
+    h5 {
+      color: #231f20;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+    }
+    ul {
+      list-style: disc;
+      padding: 20px 26px;
+      li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
